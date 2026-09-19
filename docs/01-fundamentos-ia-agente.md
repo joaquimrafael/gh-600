@@ -107,7 +107,7 @@ realizar validacoes verificaveis ou revisar a entrega, mas isso depende da forma
 
 4. Deploy em ambientes criticos, merge em branchs protegidas, delecao de repositorios, e alteracoes que impactem diretamente o codigo produtivo.
 
-5. Tentaria entender o plano original, objetivo, passo a passo, verificaoes e escopo, e entao tentar localizar o que gerou a falha, para poder mitigar e propor uma nova solucao. 
+5. Tentaria entender o plano original, objetivo, passo a passo, verificaoes e escopo, e entao tentar localizar o que gerou a falha, para poder mitigar e propor uma nova solucao.
 
 ## Relacao com o GH-600
 
