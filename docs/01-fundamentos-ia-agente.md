@@ -76,13 +76,17 @@ O modelo de colaborador ajuda a avaliar o trabalho gerado pelo agente como uma c
 
 A qualidade da colaboracao depende menos de aceitar rapidamente a resposta e mais de criar um ciclo curto de feedback verificavel.
 
+## Fluxo do SDLC com IA agente
+
+![Diagrama do SDLC com IA agente](../exercises/SLDC..png)
+
 ## Checklist de aprendizado
 
-- [ ] Consigo diferenciar agente de assistente.
-- [ ] Consigo explicar planejar, agir e avaliar.
-- [ ] Consigo descrever GitHub como sistema de registro e plano de controle.
-- [ ] Sei apontar pelo menos tres riscos de autonomia sem supervisao.
-- [ ] Sei explicar quais evidencias preciso revisar antes de aprovar trabalho gerado por agente.
+- [x] Consigo diferenciar agente de assistente.
+- [x] Consigo explicar planejar, agir e avaliar.
+- [x] Consigo descrever GitHub como sistema de registro e plano de controle.
+- [x] Sei apontar pelo menos tres riscos de autonomia sem supervisao.
+- [x] Sei explicar quais evidencias preciso revisar antes de aprovar trabalho gerado por agente.
 
 ## Perguntas de revisao
 
@@ -91,6 +95,19 @@ A qualidade da colaboracao depende menos de aceitar rapidamente a resposta e mai
 3. Qual evidencia provaria que uma alteracao esta pronta para revisao?
 4. Que acao deve sempre exigir aprovacao humana?
 5. Como voce reconstruiria o que o agente fez depois de uma falha?
+
+## Respostas
+
+1. O agente pode atuar em mais de um ponto do SDLC, seja para definir requisitos, criar um plano, executar mudancas,
+realizar validacoes verificaveis ou revisar a entrega, mas isso depende da forma como configuramos o ambiente e organizamos permissoes e acessos para manter o ciclo seguro, iteravel e agil.
+
+2. Ele deve ter acesso a criacao de branchs, a alteracao de arquivos fora de branchs protegidas, execucao de testes e execucao de revisoes, mas deve ser read-only para arquivos sensiveis, fluxo de deploy em producao e merges.
+
+3. Boas evidencias seriam: suite de testes aprovada, plano especificado, review de qualidade e de secrets automatica aprovadas, e commits bem organizados.
+
+4. Deploy em ambientes criticos, merge em branchs protegidas, delecao de repositorios, e alteracoes que impactem diretamente o codigo produtivo.
+
+5. Tentaria entender o plano original, objetivo, passo a passo, verificaoes e escopo, e entao tentar localizar o que gerou a falha, para poder mitigar e propor uma nova solucao. 
 
 ## Relacao com o GH-600
 

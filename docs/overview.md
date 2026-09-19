@@ -20,5 +20,3 @@ Aprender a projetar, implementar, avaliar, governar e operar sistemas de IA agê
 - [ ] Guardrails, seguranca e prestacao de contas
 
 ## Dúvidas abertas
-
-- 

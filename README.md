@@ -25,10 +25,16 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 
 ## Progresso
 
-- [ ] Modulo 1: arquitetura e SDLC
+- [] Modulo 1: arquitetura e SDLC
 - [ ] Modulo 2: ferramentas e ambiente
 - [ ] Modulo 3: memoria, estado e execucao
 - [ ] Modulo 4: avaliacao e ajuste
 - [ ] Modulo 5: coordenacao multiagente
 - [ ] Modulo 6: guardrails e prestacao de contas
 - [ ] Revisar e organizar as anotações
+
+## Próximo passo para amanhã
+
+- Ler o resumo do modulo 2 em [docs/02-arquitetura-agente-integracao.md](docs/02-arquitetura-agente-integracao.md)
+- Revisar os conceitos de governanca, PRs, checks e limites de ferramenta
+- Resolver o exercicio relacionado ao tema
