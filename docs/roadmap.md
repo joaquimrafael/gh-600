@@ -2,6 +2,10 @@
 
 Curso de referencia: [GH-600T00-A - Desenvolvimento em sistemas de IA agêntica](https://learn.microsoft.com/pt-br/training/courses/gh-600t00)
 
+Fontes oficiais consultadas:
+- [Microsoft Learn](https://learn.microsoft.com/pt-br/training/courses/gh-600t00)
+- [GitHub Docs](https://docs.github.com/en)
+
 O curso cobre o uso de agentes dentro do SDLC, incluindo arquitetura, ferramentas, memoria, avaliacao, governanca e coordenacao.
 
 ## Como estudar
@@ -17,14 +21,23 @@ Para cada modulo:
 
 ### 1. Arquitetura do agente e SDLC
 
-- [ ] Estudar os limites, responsabilidades e pontos de integracao do agente.
-- [ ] Relacionar o agente ao planejamento, implementacao, revisao e operacao.
+- [x] Estudar os limites, responsabilidades e pontos de integracao do agente.
+- [x] Relacionar o agente ao planejamento, implementacao, revisao e operacao.
 - Resumo: [Fundamentos da IA agente no GitHub](01-fundamentos-ia-agente.md)
 - Modulo oficial: [Fundamentos da IA Agente no GitHub](https://learn.microsoft.com/pt-br/training/modules/foundations-agentic-ai/)
 - Leitura: [Preparar a arquitetura do agente e os processos do SDLC](https://docs.github.com/copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents)
 - Exercicio: [01-arquitetura-sdlc.md](../exercises/01-arquitetura-sdlc.md)
 
-### 2. Ferramentas e interacao com o ambiente
+### 2. Arquitetura do agente e integracao com o SDLC
+
+- [ ] Definir boundaries, responsabilidades e pontos de integracao do agente com o SDLC.
+- [ ] Entender entradas, saidas, criterio de sucesso e governanca por PR.
+- [ ] Separar planejamento, raciocinio e execucao em fluxos confiaveis.
+- Resumo: [02-arquitetura-agente-integracao.md](02-arquitetura-agente-integracao.md)
+- Modulo oficial: [Designing Agent Architecture and SDLC Integration](https://learn.microsoft.com/en-gb/training/modules/design-agent-architecture-integration/)
+- Foco principal: arquitetura do agente, checks, regras de repositorio, handoffs e limites de ferramenta.
+
+### 3. Ferramentas e interacao com o ambiente
 
 - [ ] Definir quais ferramentas o agente pode usar.
 - [ ] Entender ambientes, permissoes e interacao com o workspace.
