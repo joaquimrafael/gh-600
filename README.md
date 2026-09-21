@@ -38,8 +38,13 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 - [ ] Módulo 6: governança, guardrails e operações
 - [ ] Revisar e organizar as anotações
 
+### Módulo complementar
+
+- [ ] Casos de uso de IA para desenvolvedores com GitHub Copilot — planejado para 2026-09-21
+
 ## Próximo passo
 
+- Concluir o [módulo complementar sobre casos de uso do GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/).
 - Revisar o [resumo do módulo 2](docs/02-arquitetura-agente-integracao.md).
 - Validar seu checklist de aprendizado.
 - Complementar o [exercício do domínio 1](exercises/01-arquitetura-sdlc.md) com boundaries, entradas, saídas e critérios de sucesso.

@@ -15,6 +15,10 @@ O workspace usa o Microsoft Learn MCP Server para consultar documentação ofici
 - [Guia de estudo da prova GH-600](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-600)
 - [Certificacao GitHub Certified: Agentic AI Developer](https://learn.microsoft.com/en-us/credentials/certifications/agentic-ai-developer/)
 
+### Conteudo complementar
+
+- [Developer use cases for AI with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/) - complemento sobre produtividade, preferencias do desenvolvedor, aplicacoes no SDLC, limitacoes e medicao de impacto.
+
 Ferramentas disponíveis no MCP:
 
 - `microsoft_docs_search`: pesquisar documentação

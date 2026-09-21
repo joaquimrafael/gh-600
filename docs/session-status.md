@@ -32,6 +32,16 @@ Curso - Modulo 2: Arquitetura do agente e integracao com o SDLC
 - Foco: responsabilidades, boundaries, entradas, saidas, criterios de sucesso, governanca por PR e fluxos confiaveis.
 - Pendente: revisar o resumo, validar o checklist e complementar o exercicio do dominio 1 com os conceitos deste modulo.
 
+### Atividade complementar planejada
+
+Casos de uso de IA para desenvolvedores com GitHub Copilot
+
+- Modulo: [Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/)
+- Duracao: 49 minutos, em 7 unidades.
+- Relacao principal: complemento ao dominio 1 da prova e ao estudo do SDLC iniciado nos modulos 1 e 2 do curso.
+- Foco: produtividade, preferencias do desenvolvedor, uso de IA nas etapas do SDLC, limitacoes e medicao de impacto.
+- Planejado para: 2026-09-21.
+
 ### Proximo modulo do curso
 
 Curso - Modulo 3: Ferramentas, MCP e ambientes de execucao
@@ -63,7 +73,9 @@ Fonte dos dominios e pesos: [guia oficial da prova GH-600](https://learn.microso
 
 ## Proximo passo concreto
 
-1. Revisar o [resumo do modulo 2](02-arquitetura-agente-integracao.md).
-2. Marcar o checklist conforme a compreensao for validada.
-3. Complementar o [exercicio do dominio 1](../exercises/01-arquitetura-sdlc.md) com boundaries, entradas, saidas e criterios de sucesso.
-4. Registrar a conclusao do modulo 2 neste arquivo.
+1. Concluir o [modulo complementar sobre casos de uso do GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/) em 2026-09-21.
+2. Registrar os principais aprendizados relacionados ao dominio 1.
+3. Revisar o [resumo do modulo 2](02-arquitetura-agente-integracao.md).
+4. Marcar o checklist conforme a compreensao for validada.
+5. Complementar o [exercicio do dominio 1](../exercises/01-arquitetura-sdlc.md) com boundaries, entradas, saidas e criterios de sucesso.
+6. Registrar a conclusao do modulo 2 neste arquivo.

@@ -78,6 +78,21 @@ Um modulo do curso nao equivale necessariamente a um dominio da prova. Por exemp
 - Resumo: [Governanca, guardrails e operacoes](06-governanca-guardrails-operacoes.md)
 - Modulo oficial: [Governance, Guardrails, and Operations](https://learn.microsoft.com/en-us/training/modules/governance-guardrails-operations/)
 
+### Modulo complementar
+
+#### Casos de uso de IA para desenvolvedores com GitHub Copilot
+
+Este modulo pertence a trilha **GitHub Copilot Fundamentals Part 1 of 2** e nao aos seis modulos oficiais do curso GH-600T00-A. Ele foi incluido como complemento ao dominio 1 da prova por relacionar o GitHub Copilot ao fluxo do desenvolvedor e as etapas do SDLC.
+
+- [ ] Identificar como o GitHub Copilot pode aumentar a produtividade do desenvolvedor.
+- [ ] Relacionar casos de uso do Copilot as etapas do SDLC.
+- [ ] Entender como preferencias individuais afetam a experiencia de desenvolvimento.
+- [ ] Avaliar limitacoes da codificacao assistida por IA e formas de medir seu impacto.
+- Duracao oficial: 49 minutos, distribuidos em 7 unidades.
+- Modulo oficial: [Developer use cases for AI with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/)
+- Cobertura complementar: dominio 1, com apoio aos dominios 2 e 4.
+- Planejado para: 2026-09-21.
+
 ## Dominios da prova
 
 1. **Preparar a arquitetura do agente e os processos do SDLC (15-20%)**
@@ -99,6 +114,7 @@ Os objetivos detalhados e os pesos devem ser conferidos no [guia oficial da prov
 | 4. Multiagente e orquestracao | Dominio 5 | [Dominio 5](../exercises/05-multiagente.md) |
 | 5. Memoria, estado e avaliacao | Dominios 3 e 4 | [Dominio 3](../exercises/03-memoria-estado.md) e [Dominio 4](../exercises/04-avaliacao-ajuste.md) |
 | 6. Governanca, guardrails e operacoes | Dominio 6; aplicacao transversal | [Dominio 6](../exercises/06-guardrails.md) |
+| Complementar: casos de uso do Copilot | Dominio 1; apoio aos dominios 2 e 4 | [Dominio 1](../exercises/01-arquitetura-sdlc.md) |
 
 O mapa e uma organizacao de estudo baseada nos objetivos oficiais, nao uma declaracao de equivalencia exclusiva. Assuntos como observabilidade, permissoes e recuperacao aparecem em mais de um modulo e dominio.
 
