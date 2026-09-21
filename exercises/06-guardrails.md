@@ -1,4 +1,8 @@
-# 06 - Guardrails e prestacao de contas
+# Dominio 6 - Guardrails e prestacao de contas
+
+Peso na prova: **10-15%**.
+
+Modulo principal do curso: [Governance, Guardrails, and Operations](https://learn.microsoft.com/en-us/training/modules/governance-guardrails-operations/).
 
 ## Tarefa
 

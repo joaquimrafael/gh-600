@@ -1,80 +1,121 @@
 # Roteiro GH-600
 
-Curso de referencia: [GH-600T00-A - Desenvolvimento em sistemas de IA agêntica](https://learn.microsoft.com/pt-br/training/courses/gh-600t00)
+Este roteiro separa a sequencia didatica do curso da cobertura exigida pela prova.
 
-Fontes oficiais consultadas:
-- [Microsoft Learn](https://learn.microsoft.com/pt-br/training/courses/gh-600t00)
+## Fontes oficiais
+
+- [Curso GH-600T00-A - Developing in Agentic AI Systems](https://learn.microsoft.com/en-us/training/courses/gh-600t00)
+- [Trilha 1 de 2](https://learn.microsoft.com/en-us/training/paths/gh-developing-agentic-systems-1/)
+- [Trilha 2 de 2](https://learn.microsoft.com/en-us/training/paths/github-agentic-systems-part-two/github-agentic-systems-part-two)
+- [Guia de estudo da prova GH-600](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-600)
 - [GitHub Docs](https://docs.github.com/en)
 
-O curso cobre o uso de agentes dentro do SDLC, incluindo arquitetura, ferramentas, memoria, avaliacao, governanca e coordenacao.
+## Duas estruturas diferentes
+
+### Modulos do curso
+
+O curso GH-600T00-A e organizado em duas trilhas de aprendizagem, cada uma com tres modulos. Essa e a ordem usada para leitura e para os resumos em `docs/`.
+
+### Dominios da prova
+
+A prova GH-600 mede seis dominios com pesos proprios. Essa e a estrutura usada para verificar cobertura e organizar os checkpoints em `exercises/`.
+
+Um modulo do curso nao equivale necessariamente a um dominio da prova. Por exemplo, memoria e avaliacao aparecem juntas no quinto modulo do curso, mas sao dois dominios separados na prova. A ordem tambem muda: multiagente e o quarto modulo do curso e o quinto dominio da prova.
+
+## Modulos do curso
+
+### Trilha 1 de 2
+
+#### 1. Fundamentos da IA agente no GitHub
+
+- [x] Estudar o ciclo planejar, agir e avaliar.
+- [x] Entender o GitHub como sistema de registro e plano de controle.
+- [x] Identificar responsabilidades, riscos, antipadroes e necessidades de rastreabilidade.
+- Resumo: [Fundamentos da IA agente no GitHub](01-fundamentos-ia-agente.md)
+- Modulo oficial: [Foundations of Agentic AI in GitHub](https://learn.microsoft.com/en-us/training/modules/foundations-agentic-ai/)
+
+#### 2. Arquitetura do agente e integracao com o SDLC
+
+- [ ] Mapear responsabilidades e boundaries do agente no SDLC.
+- [ ] Definir entradas, saidas e criterios de sucesso.
+- [ ] Separar planejamento, raciocinio e execucao.
+- [ ] Revisar governanca por PR, checks, CODEOWNERS, regras e environments.
+- Resumo: [Arquitetura do agente e integracao com o SDLC](02-arquitetura-agente-integracao.md)
+- Modulo oficial: [Designing Agent Architecture and SDLC Integration](https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/)
+- Status: em andamento.
+
+#### 3. Ferramentas, MCP e ambientes de execucao
+
+- [ ] Entender como agentes interagem com APIs e workflows do GitHub.
+- [ ] Configurar MCP servers, registries e allow lists.
+- [ ] Definir contexto, boundaries, limites e protecoes de execucao.
+- Resumo: [Ferramentas, MCP e ambientes de execucao](03-ferramentas-mcp-ambientes.md)
+- Modulo oficial: [Tooling, MCP, and Agent Execution Environments](https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/)
+
+### Trilha 2 de 2
+
+#### 4. Sistemas multiagente e orquestracao
+
+- [ ] Definir responsabilidades e coordenar agentes com GitHub workflows.
+- [ ] Isolar execucoes e tratar conflitos, falhas e recuperacao.
+- [ ] Produzir evidencias, atribuicao e handoffs observaveis.
+- Resumo: [Sistemas multiagente e orquestracao](04-sistemas-multiagente-orquestracao.md)
+- Modulo oficial: [Multi-Agent Systems and Orchestration](https://learn.microsoft.com/en-us/training/modules/multi-agent-systems-orchestration/)
+
+#### 5. Memoria, estado e avaliacao
+
+- [ ] Escolher estrategias de memoria e persistir estado.
+- [ ] Controlar context drift e continuidade entre ferramentas e ambientes.
+- [ ] Definir sinais de avaliacao, quality gates e analise de falhas.
+- Resumo: [Memoria, estado e avaliacao](05-memoria-estado-avaliacao.md)
+- Modulo oficial: [Memory, State, and Evaluation](https://learn.microsoft.com/en-us/training/modules/memory-state-evaluation/)
+
+#### 6. Governanca, guardrails e operacoes
+
+- [ ] Definir autonomia e boundaries baseados em risco.
+- [ ] Aplicar controles do GitHub, aprovacoes humanas e menor privilegio.
+- [ ] Garantir observabilidade, auditoria e confiabilidade operacional.
+- Resumo: [Governanca, guardrails e operacoes](06-governanca-guardrails-operacoes.md)
+- Modulo oficial: [Governance, Guardrails, and Operations](https://learn.microsoft.com/en-us/training/modules/governance-guardrails-operations/)
+
+## Dominios da prova
+
+1. **Preparar a arquitetura do agente e os processos do SDLC (15-20%)**
+2. **Implementar o uso de ferramentas e a interacao com o ambiente (20-25%)**
+3. **Gerenciar memoria, estado e execucao (10-15%)**
+4. **Executar avaliacao, analise de erro e ajuste (15-20%)**
+5. **Orquestrar a coordenacao multiagente (15-20%)**
+6. **Implementar guardrails e prestacao de contas (10-15%)**
+
+Os objetivos detalhados e os pesos devem ser conferidos no [guia oficial da prova](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-600), que pode ser atualizado independentemente do curso.
+
+## Mapa entre curso e prova
+
+| Modulo do curso | Dominios da prova relacionados | Checkpoints praticos |
+| --- | --- | --- |
+| 1. Fundamentos | Base transversal, principalmente dominio 1 | [Dominio 1](../exercises/01-arquitetura-sdlc.md) |
+| 2. Arquitetura e SDLC | Dominio 1; apoio aos dominios 2 e 6 | [Dominio 1](../exercises/01-arquitetura-sdlc.md) |
+| 3. Ferramentas, MCP e ambientes | Dominio 2; apoio ao dominio 6 | [Dominio 2](../exercises/02-ferramentas-ambiente.md) |
+| 4. Multiagente e orquestracao | Dominio 5 | [Dominio 5](../exercises/05-multiagente.md) |
+| 5. Memoria, estado e avaliacao | Dominios 3 e 4 | [Dominio 3](../exercises/03-memoria-estado.md) e [Dominio 4](../exercises/04-avaliacao-ajuste.md) |
+| 6. Governanca, guardrails e operacoes | Dominio 6; aplicacao transversal | [Dominio 6](../exercises/06-guardrails.md) |
+
+O mapa e uma organizacao de estudo baseada nos objetivos oficiais, nao uma declaracao de equivalencia exclusiva. Assuntos como observabilidade, permissoes e recuperacao aparecem em mais de um modulo e dominio.
 
 ## Como estudar
 
-Para cada modulo:
+Para cada modulo do curso:
 
-1. Leia a referencia principal.
-2. Registre conceitos e duvidas em uma nota em `docs/`.
-3. Resolva o checkpoint em `exercises/`.
-4. Registre evidencias, erros encontrados e ajustes em `examples/`.
-
-## Modulos
-
-### 1. Arquitetura do agente e SDLC
-
-- [x] Estudar os limites, responsabilidades e pontos de integracao do agente.
-- [x] Relacionar o agente ao planejamento, implementacao, revisao e operacao.
-- Resumo: [Fundamentos da IA agente no GitHub](01-fundamentos-ia-agente.md)
-- Modulo oficial: [Fundamentos da IA Agente no GitHub](https://learn.microsoft.com/pt-br/training/modules/foundations-agentic-ai/)
-- Leitura: [Preparar a arquitetura do agente e os processos do SDLC](https://docs.github.com/copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents)
-- Exercicio: [01-arquitetura-sdlc.md](../exercises/01-arquitetura-sdlc.md)
-
-### 2. Arquitetura do agente e integracao com o SDLC
-
-- [ ] Definir boundaries, responsabilidades e pontos de integracao do agente com o SDLC.
-- [ ] Entender entradas, saidas, criterio de sucesso e governanca por PR.
-- [ ] Separar planejamento, raciocinio e execucao em fluxos confiaveis.
-- Resumo: [02-arquitetura-agente-integracao.md](02-arquitetura-agente-integracao.md)
-- Modulo oficial: [Designing Agent Architecture and SDLC Integration](https://learn.microsoft.com/en-gb/training/modules/design-agent-architecture-integration/)
-- Foco principal: arquitetura do agente, checks, regras de repositorio, handoffs e limites de ferramenta.
-
-### 3. Ferramentas e interacao com o ambiente
-
-- [ ] Definir quais ferramentas o agente pode usar.
-- [ ] Entender ambientes, permissoes e interacao com o workspace.
-- Leitura: [Implementar o uso da ferramenta e a interacao com o ambiente](https://docs.github.com/copilot/how-tos/copilot-sdk/use-copilot-sdk/custom-agents)
-- Exercicio: [02-ferramentas-ambiente.md](../exercises/02-ferramentas-ambiente.md)
-
-### 3. Memoria, estado e execucao
-
-- [ ] Diferenciar memoria de repositorio, preferencias e estado de uma sessao.
-- [ ] Observar como contexto e execucao influenciam o resultado.
-- Leitura: [Gerenciar memoria, estado e execucao](https://docs.github.com/copilot/concepts/agents/copilot-memory)
-- Exercicio: [03-memoria-estado.md](../exercises/03-memoria-estado.md)
-
-### 4. Avaliacao, analise de erro e ajuste
-
-- [ ] Definir criterios de sucesso e casos de teste.
-- [ ] Registrar falhas, causas provaveis e mudancas de prompt ou ferramentas.
-- Leitura: [Executar avaliacao, analise de erro e ajuste](https://docs.github.com/copilot/tutorials/customization-library/custom-agents/implementation-planner)
-- Exercicio: [04-avaliacao-ajuste.md](../exercises/04-avaliacao-ajuste.md)
-
-### 5. Coordenacao de varios agentes
-
-- [ ] Separar papeis entre agentes pesquisadores, implementadores e revisores.
-- [ ] Definir delegacao, escopo de ferramentas e tratamento de falhas.
-- Leitura: [Orquestrar a coordenacao de varios agentes](https://docs.github.com/copilot/how-tos/copilot-sdk/use-copilot-sdk/custom-agents)
-- Exercicio: [05-multiagente.md](../exercises/05-multiagente.md)
-
-### 6. Guardrails e prestacao de contas
-
-- [ ] Definir permissoes, limites, aprovacao humana e registro de evidencias.
-- [ ] Avaliar riscos, mitigacoes e comportamento em caso de falha.
-- Leituras: [Implementar guardrails](https://docs.github.com/copilot/tutorials/cloud-agent/build-guardrails) e [Riscos e mitigacoes](https://docs.github.com/en/copilot/concepts/agents/cloud-agent/risks-and-mitigations)
-- Exercicio: [06-guardrails.md](../exercises/06-guardrails.md)
+1. Leia a referencia oficial.
+2. Registre conceitos e duvidas no resumo em `docs/`.
+3. Consulte o mapa e avance os checkpoints dos dominios relacionados em `exercises/`.
+4. Registre evidencias, erros e ajustes reproduziveis em `examples/`.
+5. Atualize [o estado da sessao](session-status.md), mantendo separados o progresso do curso e a cobertura da prova.
 
 ## Conclusao
 
-- [ ] Revisar as notas dos seis modulos.
-- [ ] Construir um pequeno agente ou especificacao de agente.
+- [ ] Concluir e revisar os seis resumos dos modulos do curso.
+- [ ] Concluir os seis checkpoints dos dominios da prova.
+- [ ] Construir um pequeno agente ou uma especificacao de agente.
 - [ ] Documentar arquitetura, ferramentas, avaliacao e controles.
 - [ ] Registrar o que ainda precisa ser praticado.

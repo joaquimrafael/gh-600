@@ -1,6 +1,8 @@
-# Modulo 1 - Fundamentos da IA agente no GitHub
+# Curso - Modulo 1: Fundamentos da IA agente no GitHub
 
 Fonte: [Fundamentos da IA Agente no GitHub](https://learn.microsoft.com/pt-br/training/modules/foundations-agentic-ai/)
+
+Cobertura da prova: introducao transversal, com enfase no **Dominio 1 - Preparar a arquitetura do agente e os processos do SDLC**.
 
 O modulo tem 8 unidades e apresenta como agentes de codificacao de IA planejam, executam e melhoram o trabalho dentro dos workflows do GitHub.
 

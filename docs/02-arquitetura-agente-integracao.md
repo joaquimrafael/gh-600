@@ -1,6 +1,8 @@
-# Modulo 2 - Arquitetura do agente e integracao com o SDLC
+# Curso - Modulo 2: Arquitetura do agente e integracao com o SDLC
 
 Fonte: [Designing Agent Architecture and SDLC Integration](https://learn.microsoft.com/en-gb/training/modules/design-agent-architecture-integration/)
+
+Cobertura da prova: principalmente o **Dominio 1 - Preparar a arquitetura do agente e os processos do SDLC**, com fundamentos usados tambem nos dominios de ferramentas e guardrails.
 
 Este modulo mostra como a arquitetura de um agente precisa ser pensada em conjunto com o ciclo de vida do software. Em vez de tratar o agente como um chatbot isolado, o foco e definir responsabilidades claras, regras de governanca, entradas e saidas bem estruturadas e fluxos observaveis.
 

@@ -1,4 +1,8 @@
-# 04 - Avaliacao e ajuste
+# Dominio 4 - Avaliacao, analise de erro e ajuste
+
+Peso na prova: **15-20%**.
+
+Modulo principal do curso: [Memory, State, and Evaluation](https://learn.microsoft.com/en-us/training/modules/memory-state-evaluation/).
 
 ## Tarefa
 

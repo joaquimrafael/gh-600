@@ -1,4 +1,8 @@
-# 03 - Memoria, estado e execucao
+# Dominio 3 - Memoria, estado e execucao
+
+Peso na prova: **10-15%**.
+
+Modulo principal do curso: [Memory, State, and Evaluation](https://learn.microsoft.com/en-us/training/modules/memory-state-evaluation/).
 
 ## Tarefa
 

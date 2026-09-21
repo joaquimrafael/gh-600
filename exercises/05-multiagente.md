@@ -1,4 +1,8 @@
-# 05 - Coordenacao multiagente
+# Dominio 5 - Coordenacao multiagente
+
+Peso na prova: **15-20%**.
+
+Modulo principal do curso: [Multi-Agent Systems and Orchestration](https://learn.microsoft.com/en-us/training/modules/multi-agent-systems-orchestration/).
 
 ## Tarefa
 

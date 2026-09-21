@@ -1,4 +1,8 @@
-# 02 - Ferramentas e ambiente
+# Dominio 2 - Ferramentas e interacao com o ambiente
+
+Peso na prova: **20-25%**.
+
+Modulo principal do curso: [Tooling, MCP, and Agent Execution Environments](https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/).
 
 ## Tarefa
 

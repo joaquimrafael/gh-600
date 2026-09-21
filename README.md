@@ -1,10 +1,15 @@
 # GH-600
 
-Repositório pessoal para aprender e praticar os conteúdos do GH-600.
+Repositório pessoal para estudar o curso GH-600T00-A e preparar a prova GH-600.
 
-## Roteiro
+## Organização da trilha
 
-O ponto de entrada do estudo e o [roteiro GH-600](docs/roadmap.md). Ele organiza o curso em seis modulos, com leitura, pratica e um checkpoint por etapa.
+O [roteiro GH-600](docs/roadmap.md) mantém separadas duas estruturas oficiais:
+
+- **curso**: duas trilhas de aprendizagem, com três módulos cada;
+- **prova**: seis domínios de habilidades, cada um com peso próprio.
+
+Os resumos em `docs/` seguem a ordem dos módulos do curso. Os checkpoints em `exercises/` seguem os domínios da prova. O roteiro contém o mapa entre as duas estruturas.
 
 Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes](AGENTS.md) e o [estado da trilha](docs/session-status.md).
 
@@ -17,24 +22,24 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 
 ## Como usar
 
-1. Siga o proximo modulo em `docs/roadmap.md`.
-2. Registre o que aprendeu em `docs/`.
-3. Resolva o checkpoint correspondente em `exercises/`.
+1. Siga o próximo módulo do curso em `docs/roadmap.md`.
+2. Registre o que aprendeu no resumo correspondente em `docs/`.
+3. Use o mapa do roteiro para atualizar um ou mais domínios em `exercises/`.
 4. Guarde soluções mínimas e reproduzíveis em `examples/`.
 5. Anote dúvidas, decisões e próximos passos.
 
-## Progresso
+## Progresso do curso
 
-- [] Modulo 1: arquitetura e SDLC
-- [ ] Modulo 2: ferramentas e ambiente
-- [ ] Modulo 3: memoria, estado e execucao
-- [ ] Modulo 4: avaliacao e ajuste
-- [ ] Modulo 5: coordenacao multiagente
-- [ ] Modulo 6: guardrails e prestacao de contas
+- [x] Módulo 1: fundamentos da IA agêntica no GitHub
+- [ ] Módulo 2: arquitetura do agente e integração com o SDLC (em andamento)
+- [ ] Módulo 3: ferramentas, MCP e ambientes de execução
+- [ ] Módulo 4: sistemas multiagente e orquestração
+- [ ] Módulo 5: memória, estado e avaliação
+- [ ] Módulo 6: governança, guardrails e operações
 - [ ] Revisar e organizar as anotações
 
-## Próximo passo para amanhã
+## Próximo passo
 
-- Ler o resumo do modulo 2 em [docs/02-arquitetura-agente-integracao.md](docs/02-arquitetura-agente-integracao.md)
-- Revisar os conceitos de governanca, PRs, checks e limites de ferramenta
-- Resolver o exercicio relacionado ao tema
+- Revisar o [resumo do módulo 2](docs/02-arquitetura-agente-integracao.md).
+- Validar seu checklist de aprendizado.
+- Complementar o [exercício do domínio 1](exercises/01-arquitetura-sdlc.md) com boundaries, entradas, saídas e critérios de sucesso.

@@ -1,6 +1,10 @@
-# 01 - Arquitetura e SDLC
+# Dominio 1 - Arquitetura e processos do SDLC
+
+Peso na prova: **15-20%**.
 
 Fonte conceitual: [Fundamentos da IA agente no GitHub](../docs/01-fundamentos-ia-agente.md)
+
+Modulos do curso relacionados: [Fundamentos da IA agente](../docs/01-fundamentos-ia-agente.md) e [Arquitetura do agente e integracao com o SDLC](../docs/02-arquitetura-agente-integracao.md).
 
 ## Tarefa
 
