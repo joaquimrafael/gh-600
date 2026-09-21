@@ -1,115 +1,117 @@
-# Curso - Modulo 2: Arquitetura do agente e integracao com o SDLC
+# Curso - Módulo 2: Arquitetura do agente e integração com o SDLC
 
 Fonte: [Designing Agent Architecture and SDLC Integration](https://learn.microsoft.com/en-gb/training/modules/design-agent-architecture-integration/)
 
-Cobertura da prova: principalmente o **Dominio 1 - Preparar a arquitetura do agente e os processos do SDLC**, com fundamentos usados tambem nos dominios de ferramentas e guardrails.
+Cobertura da prova: principalmente o **Domínio 1: preparar a arquitetura do agente e os processos do SDLC**, com conceitos que também aparecem nos domínios de ferramentas e guardrails.
 
-Este modulo mostra como a arquitetura de um agente precisa ser pensada em conjunto com o ciclo de vida do software. Em vez de tratar o agente como um chatbot isolado, o foco e definir responsabilidades claras, regras de governanca, entradas e saidas bem estruturadas e fluxos observaveis.
+O módulo trata a arquitetura do agente como parte do ciclo de desenvolvimento de software. Em vez de pensar no agente como um chatbot isolado, é preciso definir responsabilidades, entradas, saídas, critérios de sucesso e controles de governança.
 
 ## Resumo
 
-### 1. Mapear responsabilidades do agente no SDLC
+### 1. Responsabilidades do agente no SDLC
 
-O agente deve participar de etapas do ciclo de vida com limites bem definidos, como:
+O agente pode participar de diferentes etapas do ciclo de vida, desde que cada responsabilidade tenha limites claros. Ele pode:
 
 - compreender e decompor requisitos;
-- planejar tarefas e sequencias de execucao;
-- implementar alteracoes em codigo ou configuracao;
-- validar resultados com testes e chequeos;
-- preparar pull requests e evidencias de entrega;
-- monitorar operacao e apoiar manutencao.
+- planejar tarefas e dependências;
+- implementar alterações em código ou configuração;
+- validar resultados com testes e outras verificações;
+- preparar pull requests e evidências da entrega;
+- acompanhar a operação e apoiar a manutenção.
 
-A ideia central e que o agente nao substitui a decisao humana, mas tira parte do trabalho repetitivo e de apoio, dentro de um processo com revisao e governanca.
+O agente assume tarefas bem delimitadas, mas não substitui decisões humanas. Revisão, aprovação e responsabilidade pelo resultado continuam fazendo parte do processo.
 
-### 2. Definir entradas, saidas e criterio de sucesso
+### 2. Entradas, saídas e critérios de sucesso
 
-Para que um agente funcione de forma confiavel, todo trabalho precisa ter:
+Uma tarefa confiável precisa definir:
 
-- objetivo claro;
-- contexto suficiente para entender o problema;
-- inputs bem definidos;
-- outputs esperados;
-- criterio de sucesso verificavel.
+- o objetivo;
+- o contexto necessário;
+- as entradas disponíveis;
+- as saídas esperadas;
+- as restrições;
+- os critérios de sucesso;
+- as evidências que comprovarão o resultado.
 
-Sem isso, o agente tende a agir com base em suposicoes, o que aumenta risco de erro, escopo desviado e baixa rastreabilidade.
+Sem essas definições, o agente precisa preencher lacunas por conta própria. Isso aumenta a chance de erro, desvio de escopo e resultados difíceis de verificar.
 
-### 3. Separar planejar, raciocinar e executar
+### 3. Planejamento, raciocínio e execução
 
-O modulo enfatiza que a arquitetura do agente precisa separar responsabilidades:
+A arquitetura deve separar três responsabilidades:
 
-- planejar: identificar passos, dependencias e restricoes;
-- raciocinar: interpretar contexto e decidir como resolver;
-- executar: usar ferramentas para editar arquivos, testar e validar.
+- **planejamento:** identificar etapas, dependências e restrições;
+- **raciocínio:** interpretar o contexto e escolher uma abordagem;
+- **execução:** usar ferramentas para alterar arquivos, executar testes e registrar resultados.
 
-Essa separacao cria fluxos mais observaveis e facilita a revisao humana. Em vez de aceitar a primeira resposta plausivel, a equipe pode inspecionar a estrategia, os passos e as evidencias.
+Essa separação permite analisar o plano antes de liberar ações. Também facilita a identificação de falhas, pois fica mais simples distinguir um plano inadequado, uma decisão incorreta e um problema no uso da ferramenta.
 
-### 4. Governanca por pull request
+### 4. Governança por pull request
 
-O GitHub atua como espaco de governanca e rastreio. A arquitetura segura do agente depende de controles como:
+O GitHub concentra revisão, validação e aprovação. Uma arquitetura segura pode combinar:
 
 - templates de pull request;
-- checks de CI e qualidade;
+- verificações de CI e qualidade;
 - CODEOWNERS;
-- regras de branch protection;
-- ambientes e gates de aprovacao;
-- requisitos de revisao manual.
+- rulesets e proteção de branch;
+- environments com aprovação;
+- revisão humana obrigatória.
 
-Esses mecanismos evitam que o agente altere codigo sem contexto, sem aprovacao ou sem validacao relevante.
+Esses controles impedem que uma alteração avance sem contexto, validação ou autorização. A pull request também reúne o plano, as mudanças, as evidências e o feedback em um único lugar.
 
-### 5. Fluxos confiaveis: outputs, contextos, gatilhos e handoffs
+### 5. Saídas, contexto, gatilhos e handoffs
 
-Em sistemas mais complexos, o agente nao precisa fazer tudo sozinho. O processo deve ser estruturado em etapas conectadas:
+Em fluxos maiores, o trabalho pode ser dividido em etapas ou agentes. Para isso, cada etapa precisa produzir uma saída clara para a próxima:
 
-- uma etapa produz artefatos ou contexto;
-- outra etapa usa esse contexto como entrada;
-- gatilhos definem quando o processo avanca;
-- handoffs entre jobs ou etapas ajudam a manter o fluxo claro.
+- artefatos e saídas estruturadas carregam o resultado;
+- o contexto explica objetivo, decisões e restrições;
+- gatilhos determinam quando a próxima etapa começa;
+- handoffs registram a transferência de responsabilidade.
 
-Isso reduz acoplamento, facilita depuracao e melhora a auditabilidade do trabalho.
+Essa organização reduz o acoplamento entre etapas e facilita depuração, revisão e auditoria. O fluxo não deve depender de informações que existam apenas em uma conversa temporária.
 
-### 6. Operacao e controle do agente
+### 6. Operação e controle
 
-O modulo tambem trata de operacao segura do agente, incluindo:
+Uma arquitetura de agente também precisa definir como a execução será controlada. Isso inclui:
 
-- observabilidade de logs, metricas e artefatos;
-- governanca de ferramentas e permissao;
-- uso de MCP para integrar ferramentas e contexto externo;
-- limites de secrets e acesso a recursos sensiveis;
-- hooks e validacoes de seguranca;
-- firewall e restricoes de rede;
-- padroes de confiabilidade para evitar falhas em cadeias de execucao.
+- logs, métricas e artefatos para observabilidade;
+- permissões e governança das ferramentas;
+- integração com ferramentas externas por MCP;
+- limites para secrets e recursos sensíveis;
+- hooks e verificações de segurança;
+- restrições de rede;
+- tratamento de erros, retries limitados e caminhos de recuperação.
 
-Em outras palavras, o agente precisa operar dentro de um ambiente com limites claros e evidencias de execucao.
+O ambiente deve impor os limites. Instruções ajudam a orientar o agente, mas não substituem permissões, isolamento, checks e aprovações.
 
 ## Checklist de aprendizado
 
-- [ ] Consigo mapear responsabilidades do agente ao SDLC.
-- [ ] Sei distinguir objetivo, contexto, entrada, saida e criterio de sucesso.
-- [ ] Entendo a diferenca entre planejamento, raciocinio e execucao.
-- [ ] Reconheco a importancia de PRs, checks e regras de branch para governanca.
-- [ ] Sei descrever como fluxos confiaveis e observabilidade reduzem risco.
-- [ ] Entendo por que permissoes, secrets e limites de ferramentas sao parte da arquitetura.
+- [ ] Consigo mapear as responsabilidades do agente para as etapas do SDLC.
+- [ ] Sei distinguir objetivo, contexto, entrada, saída e critério de sucesso.
+- [ ] Entendo a diferença entre planejamento, raciocínio e execução.
+- [ ] Reconheço o papel de pull requests, checks e regras de branch na governança.
+- [ ] Sei explicar como fluxos observáveis reduzem riscos.
+- [ ] Entendo por que permissões, secrets e limites de ferramentas fazem parte da arquitetura.
 
-## Perguntas de revisao
+## Perguntas de revisão
 
-1. Qual e a vantagem de separar planejamento, raciocinio e execucao em um agente?
-2. Como os controles de PR e regras de repositorio ajudam a governanca do agente?
-3. O que deve estar presente em um criterio de sucesso bem definido?
-4. Qual e a funcao de outputs, contextos e handoffs em um fluxo de trabalho?
-5. Como observabilidade e limites de acesso reduzem risco operacional?
+1. Qual é a vantagem de separar planejamento, raciocínio e execução?
+2. Como pull requests e regras do repositório ajudam a governar o trabalho do agente?
+3. O que deve fazer parte de um critério de sucesso bem definido?
+4. Qual é a função das saídas, do contexto e dos handoffs em um fluxo de trabalho?
+5. Como a observabilidade e os limites de acesso reduzem o risco operacional?
 
 ## Respostas
 
-1. A separacao melhora rastreabilidade, reduz erros por suposicao e facilita a revisao humana, pois cada etapa pode ser inspecionada e ajustada separadamente.
+1. A separação permite revisar o plano antes da execução, localizar a origem de uma falha e ajustar cada etapa sem tratar todo o fluxo como uma única ação opaca.
 
-2. Eles definem quando uma alteracao pode ser aceita, exigem validacoes e estabelecem limites de permissao e revisao, reduzindo risco de mudancas sem supervisao.
+2. Eles definem as condições para aceitar uma alteração. Checks, proteção de branch, CODEOWNERS e revisões obrigatórias impedem que o trabalho avance sem validação ou autorização.
 
-3. Um criterio de sucesso deve incluir objetivo, condicoes de aceitacao, verificacoes necessarias, contexto relevante e evidencias que comprovem que a entrega resolveu o problema.
+3. O critério deve descrever o resultado esperado, as condições de aceite, as restrições, as verificações necessárias e as evidências que demonstram a conclusão da tarefa.
 
-4. Outputs e contextos transformam uma etapa em insumo para a proxima, enquanto handoffs mantem o fluxo organizado entre jobs, tarefas e validacoes.
+4. As saídas levam resultados de uma etapa para outra, o contexto preserva objetivo e decisões, e os handoffs deixam claro quem ou qual processo assume o trabalho em seguida.
 
-5. Observabilidade permite reconstruir o que aconteceu e identificar falhas; limites de acesso e secrets impedem uso indevido de recursos sensiveis e reduzem impacto de execucao indevida.
+5. A observabilidade permite reconstruir a execução e investigar falhas. Limites de acesso reduzem o que o agente pode afetar caso algo saia errado.
 
-## Relacao com o GH-600
+## Relação com o GH-600
 
-Este modulo conecta diretamente os fundamentos do modulo anterior com a arquitetura pratica de agentes no GitHub. Ele prepara o estudo de ferramentas, memoria, avaliacao, multiagente e guardrails, mostrando que a confiabilidade de um agente depende tanto da inteligencia do modelo quanto da estrutura do processo e dos controles do repositorio.
+O módulo transforma os fundamentos anteriores em decisões de arquitetura. Ele mostra que a confiabilidade de um agente depende tanto da capacidade do modelo quanto da organização do fluxo, das permissões e dos controles do repositório.
