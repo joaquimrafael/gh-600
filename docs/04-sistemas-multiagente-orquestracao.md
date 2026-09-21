@@ -103,15 +103,15 @@ Projetar para falha significa assumir que agentes e workflows podem nao convergi
 
 ## Respostas
 
-1. Papeis genericos fazem agentes disputarem os mesmos arquivos, duplicarem solucoes e deixarem ownership e criterios de conclusao ambiguos. Responsabilidades estreitas tornam escopo e resultado verificaveis.
+1.
 
-2. Quando seus escopos e caminhos estao isolados e suas saidas podem convergir por checks ou por uma etapa controlada. Se puderem alterar o mesmo contexto, o paralelismo aumenta instabilidade.
+2.
 
-3. Artefatos tornam entradas e saidas persistentes, estruturadas e revisaveis. Eles preservam evidencias e evitam depender de comunicacao oculta ou contexto de sessao.
+3.
 
-4. CODEOWNERS encaminha mudancas em caminhos sensiveis aos responsaveis adequados, transformando ownership em um mecanismo previsivel de arbitragem e revisao.
+4.
 
-5. Falhas repetidas, checks que nao convergem, conflitos recorrentes, ausencia de evidencias ou acoes bloqueadas por politica. Nesses casos, o fluxo deve produzir um resumo e solicitar decisao humana.
+5.
 
 ## Relacao com o GH-600
 

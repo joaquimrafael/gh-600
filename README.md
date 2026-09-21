@@ -31,7 +31,7 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 ## Progresso do curso
 
 - [x] Módulo 1: fundamentos da IA agêntica no GitHub
-- [ ] Módulo 2: arquitetura do agente e integração com o SDLC (em andamento)
+- [x] Módulo 2: arquitetura do agente e integração com o SDLC
 - [ ] Módulo 3: ferramentas, MCP e ambientes de execução
 - [ ] Módulo 4: sistemas multiagente e orquestração
 - [ ] Módulo 5: memória, estado e avaliação
@@ -44,7 +44,6 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 
 ## Próximo passo
 
-- Concluir o [módulo complementar sobre casos de uso do GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/).
-- Revisar o [resumo do módulo 2](docs/02-arquitetura-agente-integracao.md).
-- Validar seu checklist de aprendizado.
-- Complementar o [exercício do domínio 1](exercises/01-arquitetura-sdlc.md) com boundaries, entradas, saídas e critérios de sucesso.
+- Revisar o conteúdo do [Domínio 1 da prova](exercises/01-arquitetura-sdlc.md) em 2026-09-21.
+- Iniciar o [módulo complementar sobre casos de uso do GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/) em 2026-09-21.
+- Depois dessas atividades, iniciar o [resumo do módulo 3](docs/03-ferramentas-mcp-ambientes.md).

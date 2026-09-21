@@ -100,15 +100,15 @@ O objetivo e tornar a execucao resiliente, controlada, auditavel e governada por
 
 ## Respostas
 
-1. O workflow tradicional declara passos deterministas em YAML. O Agentic Workflow descreve o resultado em linguagem natural, enquanto o frontmatter delimita gatilhos, ferramentas, permissoes e saidas permitidas.
+1.
 
-2. O servidor expoe ferramentas, o registro permite descobri-las e distribui-las, e a allow list determina quais servidores podem ser usados. Juntos, eles ampliam capacidades sem abandonar a governanca.
+2.
 
-3. Repositorio, branch, workflow ou job, permissoes do token, ferramentas habilitadas e escopo de arquivos. Esses limites definem tanto o que o agente enxerga quanto o que pode fazer.
+3.
 
-4. O token somente leitura impede escrita direta pelo processo do agente. Saidas seguras separam a proposta da aplicacao da mudanca, permitindo validacao por uma etapa controlada.
+4.
 
-5. O retry serve para falhas transitorias e deve ter limite. Erros repetidos, incerteza, risco elevado ou falhas de politica devem interromper a automacao e produzir contexto para revisao humana.
+5.
 
 ## Relacao com o GH-600
 

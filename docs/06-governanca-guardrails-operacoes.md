@@ -130,17 +130,17 @@ Guardrails eficazes combinam enforcement tecnico, evidencia suficiente e respons
 
 ## Respostas
 
-1. Acoes reversiveis e de baixo impacto podem ser automatizadas com seguranca, enquanto acoes criticas precisam de validacao e aprovacao para evitar consequencias dificeis de reverter.
+1.
 
-2. A politica documentada depende de comportamento voluntario. O guardrail e imposto pela plataforma e consegue bloquear a acao que viola a regra.
+2.
 
-3. Em decisoes de alto impacto, como merge, deploy, acesso a secrets e mudancas sensiveis. Analise, busca e verificacoes rotineiras podem permanecer automatizadas.
+3.
 
-4. Instrucoes expressam intencao, mas o token e as ferramentas determinam quais acoes sao tecnicamente possiveis. Permissoes amplas aumentam o impacto potencial de qualquer falha.
+4.
 
-5. Ele produz planos, testes, scans, logs e relatorios auditaveis e impede o avanco quando a evidencia obrigatoria esta ausente.
+5.
 
-6. Revisando mudancas em checks, rulesets, CODEOWNERS, permissoes, secrets, reviewers e evidencias. Esses controles devem ser auditados regularmente porque equipes e sistemas mudam.
+6.
 
 ## Relacao com o GH-600
 

@@ -116,15 +116,15 @@ O ciclo e executar, observar evidencias, identificar a causa, ajustar e validar 
 
 ## Respostas
 
-1. Memoria organiza informacoes relevantes para orientar o agente. Estado registra progresso, decisoes, resultados e trabalho restante de uma execucao concreta.
+1.
 
-2. A PR agrega plano, commits, discussoes, checks e links para artefatos. Assim, ela oferece uma visao persistente e revisavel do trabalho entre sessoes.
+2.
 
-3. Usando referencias duraveis e uma fonte de verdade por tipo de informacao. Ao trocar de ambiente, o agente deve consultar a mesma issue, PR, branch, commits e workflow runs atuais.
+3.
 
-4. O sinal informa algo sobre qualidade ou resultado, como um teste ou scan. O quality gate transforma esse sinal em uma condicao obrigatoria para o fluxo avancar.
+4.
 
-5. Ela evita ajustes genericos. Erros de raciocinio pedem instrucoes ou criterios melhores; falhas de ferramenta pedem configuracao; problemas de contexto pedem correcao da memoria ou da fonte de verdade.
+5.
 
 ## Relacao com o GH-600
 

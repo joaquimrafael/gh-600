@@ -36,13 +36,13 @@ Um modulo do curso nao equivale necessariamente a um dominio da prova. Por exemp
 
 #### 2. Arquitetura do agente e integracao com o SDLC
 
-- [ ] Mapear responsabilidades e boundaries do agente no SDLC.
-- [ ] Definir entradas, saidas e criterios de sucesso.
-- [ ] Separar planejamento, raciocinio e execucao.
-- [ ] Revisar governanca por PR, checks, CODEOWNERS, regras e environments.
+- [x] Mapear responsabilidades e boundaries do agente no SDLC.
+- [x] Definir entradas, saidas e criterios de sucesso.
+- [x] Separar planejamento, raciocinio e execucao.
+- [x] Revisar governanca por PR, checks, CODEOWNERS, regras e environments.
 - Resumo: [Arquitetura do agente e integracao com o SDLC](02-arquitetura-agente-integracao.md)
 - Modulo oficial: [Designing Agent Architecture and SDLC Integration](https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/)
-- Status: em andamento.
+- Status: concluido em 2026-09-20.
 
 #### 3. Ferramentas, MCP e ambientes de execucao
 

@@ -85,12 +85,12 @@ O ambiente deve impor os limites. Instruções ajudam a orientar o agente, mas n
 
 ## Checklist de aprendizado
 
-- [ ] Consigo mapear as responsabilidades do agente para as etapas do SDLC.
-- [ ] Sei distinguir objetivo, contexto, entrada, saída e critério de sucesso.
-- [ ] Entendo a diferença entre planejamento, raciocínio e execução.
-- [ ] Reconheço o papel de pull requests, checks e regras de branch na governança.
-- [ ] Sei explicar como fluxos observáveis reduzem riscos.
-- [ ] Entendo por que permissões, secrets e limites de ferramentas fazem parte da arquitetura.
+- [x] Consigo mapear as responsabilidades do agente para as etapas do SDLC.
+- [x] Sei distinguir objetivo, contexto, entrada, saída e critério de sucesso.
+- [x] Entendo a diferença entre planejamento, raciocínio e execução.
+- [x] Reconheço o papel de pull requests, checks e regras de branch na governança.
+- [x] Sei explicar como fluxos observáveis reduzem riscos.
+- [x] Entendo por que permissões, secrets e limites de ferramentas fazem parte da arquitetura.
 
 ## Perguntas de revisão
 
@@ -102,15 +102,15 @@ O ambiente deve impor os limites. Instruções ajudam a orientar o agente, mas n
 
 ## Respostas
 
-1. A separação permite revisar o plano antes da execução, localizar a origem de uma falha e ajustar cada etapa sem tratar todo o fluxo como uma única ação opaca.
+1. A principal vantagem é conseguir visualizar o objetivo inicial, o passo a passo que será executado, como o trabalho foi feito e o que ele gerou. Isso ajuda a manter a consistência ao longo do fluxo e permite que haja validação humana antes que o código seja alterado de fato. Também facilita a identificação da etapa que gerou uma possível falha.
 
-2. Eles definem as condições para aceitar uma alteração. Checks, proteção de branch, CODEOWNERS e revisões obrigatórias impedem que o trabalho avance sem validação ou autorização.
+2. Pull requests e regras do repositório fazem com que o agente trabalhe como um contribuidor, com suas alterações sujeitas a checks e revisão. Isso garante que haja validação humana antes de a implementação seguir adiante e evita impactos não mapeados em código produtivo ou crítico.
 
-3. O critério deve descrever o resultado esperado, as condições de aceite, as restrições, as verificações necessárias e as evidências que demonstram a conclusão da tarefa.
+3. Um critério de sucesso bem definido deve incluir o objetivo a ser atingido, o escopo e as restrições das alterações, as condições de aceite, os testes e as validações verificáveis, além dos artefatos que precisam ser gerados.
 
-4. As saídas levam resultados de uma etapa para outra, o contexto preserva objetivo e decisões, e os handoffs deixam claro quem ou qual processo assume o trabalho em seguida.
+4. As saídas evidenciam os resultados do fluxo de trabalho e levam essas informações para a próxima etapa. O contexto descreve o objetivo, as decisões e as restrições do trabalho. Os handoffs fazem a passagem de conhecimento, estado e responsabilidade entre agentes ou etapas do fluxo, ajudando a manter sua consistência.
 
-5. A observabilidade permite reconstruir a execução e investigar falhas. Limites de acesso reduzem o que o agente pode afetar caso algo saia errado.
+5. A observabilidade é fundamental para identificar e investigar possíveis falhas ou comportamentos estranhos que possam gerar riscos à operação do sistema. Os limites de acesso restringem o que os agentes podem fazer e ajudam a impedir que ações de maior impacto ocorram sem validação humana, reduzindo o risco operacional.
 
 ## Relação com o GH-600
 
