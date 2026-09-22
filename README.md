@@ -40,10 +40,13 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 
 ### Módulo complementar
 
-- [ ] Casos de uso de IA para desenvolvedores com GitHub Copilot — planejado para 2026-09-21
+- [ ] Casos de uso de IA para desenvolvedores com GitHub Copilot — iniciado em 2026-09-22
+
+## Progresso da prova
+
+- [x] Primeira revisão do Domínio 1 concluída, com os módulos 1 e 2 estudados e revisados.
 
 ## Próximo passo
 
-- Revisar o conteúdo do [Domínio 1 da prova](exercises/01-arquitetura-sdlc.md) em 2026-09-21.
-- Iniciar o [módulo complementar sobre casos de uso do GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/) em 2026-09-21.
-- Depois dessas atividades, iniciar o [resumo do módulo 3](docs/03-ferramentas-mcp-ambientes.md).
+- Continuar o [módulo complementar sobre casos de uso do GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/).
+- Depois, iniciar o [resumo do módulo 3](docs/03-ferramentas-mcp-ambientes.md).

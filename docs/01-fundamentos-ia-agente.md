@@ -78,10 +78,6 @@ O trabalho gerado pelo agente deve ser tratado como qualquer outra contribuiçã
 
 Uma boa colaboração depende de ciclos curtos de feedback e de resultados verificáveis, não da aceitação automática da primeira resposta.
 
-## Fluxo do SDLC com IA agêntica
-
-![Diagrama do SDLC com IA agêntica](../exercises/SLDC..png)
-
 ## Checklist de aprendizado
 
 - [x] Consigo diferenciar um agente de um assistente.

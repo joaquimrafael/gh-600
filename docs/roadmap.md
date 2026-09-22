@@ -91,7 +91,7 @@ Este modulo pertence a trilha **GitHub Copilot Fundamentals Part 1 of 2** e nao 
 - Duracao oficial: 49 minutos, distribuidos em 7 unidades.
 - Modulo oficial: [Developer use cases for AI with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/)
 - Cobertura complementar: dominio 1, com apoio aos dominios 2 e 4.
-- Planejado para: 2026-09-21.
+- Status: iniciado em 2026-09-22.
 
 ## Dominios da prova
 

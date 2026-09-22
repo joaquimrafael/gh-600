@@ -58,6 +58,30 @@ O GitHub concentra revisão, validação e aprovação. Uma arquitetura segura p
 
 Esses controles impedem que uma alteração avance sem contexto, validação ou autorização. A pull request também reúne o plano, as mudanças, as evidências e o feedback em um único lugar.
 
+#### Dúvida resolvida: qual é a diferença entre CODEOWNERS, rulesets e proteção de branch?
+
+Os três recursos se complementam, mas têm responsabilidades diferentes:
+
+| Recurso | Responsabilidade | Exemplo |
+| --- | --- | --- |
+| `CODEOWNERS` | Define quem é responsável por determinados arquivos ou diretórios. | Mudanças em `/infra/` solicitam revisão de `@org/platform`. |
+| Proteção de branch | Define condições para alterar ou fazer merge em branches importantes. | A branch `main` exige pull request, duas aprovações e checks aprovados. |
+| Rulesets | Agrupam políticas aplicáveis a branches, tags ou pushes, com alvos e exceções configuráveis. | As branches `release/*` exigem commits assinados e bloqueiam force push. |
+
+O arquivo `CODEOWNERS` identifica os revisores relacionados aos caminhos alterados e solicita sua revisão automaticamente. Sozinho, ele não torna essa aprovação obrigatória. Para bloquear o merge sem a aprovação de um code owner, é necessário habilitar esse requisito em uma regra de proteção de branch ou em um ruleset.
+
+A proteção de branch é o mecanismo tradicional para exigir pull requests, aprovações, status checks, histórico linear, commits assinados e outras condições. Quando mais de uma regra de proteção corresponde à mesma branch, apenas uma delas é aplicada.
+
+Rulesets oferecem uma forma mais ampla e combinável de aplicar políticas. Vários rulesets podem atingir o mesmo alvo; suas regras são agregadas, e a versão mais restritiva prevalece quando houver sobreposição. Rulesets e proteções de branch também podem coexistir, caso em que todas as regras aplicáveis são consideradas.
+
+Em resumo: `CODEOWNERS` responde **quem deve revisar**, enquanto proteção de branch e rulesets respondem **quais condições a plataforma deve impor**. Para novas configurações mais complexas ou reutilizáveis, rulesets tendem a oferecer maior flexibilidade; a proteção de branch continua adequada para regras simples ou configurações existentes.
+
+Fontes oficiais:
+
+- [About code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
+- [About protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)
+- [About rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets)
+
 ### 5. Saídas, contexto, gatilhos e handoffs
 
 Em fluxos maiores, o trabalho pode ser dividido em etapas ou agentes. Para isso, cada etapa precisa produzir uma saída clara para a próxima:

@@ -1,6 +1,6 @@
 # Estado da trilha
 
-Atualizado em: 2026-09-20
+Atualizado em: 2026-09-22
 
 ## Convencao
 
@@ -30,15 +30,20 @@ Consulte o [mapa entre curso e prova](roadmap.md#mapa-entre-curso-e-prova). As d
 - Foco: responsabilidades, boundaries, entradas, saidas, criterios de sucesso, governanca por PR e fluxos confiaveis.
 - Status: concluido em 2026-09-20, com resumo revisado, checklist validado e perguntas respondidas.
 
-### Revisao da prova planejada
+### Primeira revisao do Dominio 1 concluida
 
 Dominio 1 - Preparar a arquitetura do agente e os processos do SDLC
 
-- Revisar a cobertura conjunta dos modulos 1 e 2 do curso.
-- Retomar o [exercicio do dominio 1](../exercises/01-arquitetura-sdlc.md) e conferir os conceitos principais.
-- Planejado para: 2026-09-21.
+- Cobertura conjunta dos modulos 1 e 2 revisada.
+- [Exercicio do dominio 1](../exercises/01-arquitetura-sdlc.md) retomado e conceitos principais conferidos.
+- Primeira revisao concluida em 2026-09-22, com [exemplo pratico](../examples/01-fluxo-agente-sdlc.md).
 
-### Atividade complementar planejada
+### Duvidas resolvidas durante a revisao
+
+- Registrada a diferenca entre `CODEOWNERS`, rulesets e protecao de branch no [resumo do modulo 2](02-arquitetura-agente-integracao.md#dúvida-resolvida-qual-é-a-diferença-entre-codeowners-rulesets-e-proteção-de-branch).
+- Aprendizado principal: `CODEOWNERS` define quem deve revisar; rulesets e protecao de branch definem as condicoes impostas pela plataforma.
+
+### Atividade complementar em andamento
 
 Casos de uso de IA para desenvolvedores com GitHub Copilot
 
@@ -46,13 +51,13 @@ Casos de uso de IA para desenvolvedores com GitHub Copilot
 - Duracao: 49 minutos, em 7 unidades.
 - Relacao principal: complemento ao dominio 1 da prova e ao estudo do SDLC iniciado nos modulos 1 e 2 do curso.
 - Foco: produtividade, preferencias do desenvolvedor, uso de IA nas etapas do SDLC, limitacoes e medicao de impacto.
-- Planejado para: 2026-09-21.
+- Status: iniciado em 2026-09-22.
 
 ### Proximo modulo do curso
 
 Curso - Modulo 3: Ferramentas, MCP e ambientes de execucao
 
-- Iniciar depois da revisao do dominio 1 e do inicio do modulo complementar planejados para 2026-09-21.
+- Iniciar depois da revisao do dominio 1 e do inicio do modulo complementar.
 - Resumo preparado: [docs/03-ferramentas-mcp-ambientes.md](03-ferramentas-mcp-ambientes.md).
 - Checkpoint principal: [exercises/02-ferramentas-ambiente.md](../exercises/02-ferramentas-ambiente.md), referente ao dominio 2 da prova.
 
@@ -68,18 +73,17 @@ Os resumos abaixo ja foram criados a partir dos modulos oficiais, mas isso nao r
 
 | Dominio | Peso | Estado |
 | --- | --- | --- |
-| 1. Arquitetura e processos do SDLC | 15-20% | Em revisao; modulos 1 e 2 concluidos e revisao geral planejada para 2026-09-21 |
-| 2. Ferramentas e ambiente | 20-25% | Nao iniciado |
-| 3. Memoria, estado e execucao | 10-15% | Nao iniciado |
-| 4. Avaliacao, analise de erro e ajuste | 15-20% | Nao iniciado |
-| 5. Coordenacao multiagente | 15-20% | Nao iniciado |
-| 6. Guardrails e prestacao de contas | 10-15% | Nao iniciado |
+| 1. Arquitetura e processos do SDLC | 15-20% | Primeira revisao concluida; modulos 1 e 2 concluidos e [exemplo preparado](../examples/01-fluxo-agente-sdlc.md) |
+| 2. Ferramentas e ambiente | 20-25% | [Exemplo preparado](../examples/02-politica-ferramentas.md); exercicio nao concluido |
+| 3. Memoria, estado e execucao | 10-15% | [Exemplo preparado](../examples/03-memoria-estado.md); exercicio nao concluido |
+| 4. Avaliacao, analise de erro e ajuste | 15-20% | [Exemplo preparado](../examples/04-avaliacao-planos.md); exercicio nao concluido |
+| 5. Coordenacao multiagente | 15-20% | [Exemplo preparado](../examples/05-orquestracao-multiagente.md); exercicio nao concluido |
+| 6. Guardrails e prestacao de contas | 10-15% | [Exemplo preparado](../examples/06-guardrails-auditoria.md); exercicio nao concluido |
 
 Fonte dos dominios e pesos: [guia oficial da prova GH-600](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-600).
 
 ## Proximo passo concreto
 
-1. Revisar o [conteudo do dominio 1](../exercises/01-arquitetura-sdlc.md) em 2026-09-21.
-2. Iniciar o [modulo complementar sobre casos de uso do GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/) na mesma data.
-3. Registrar os aprendizados e eventuais duvidas do dominio 1.
-4. Depois dessas atividades, iniciar o [modulo 3 do curso](03-ferramentas-mcp-ambientes.md).
+1. Continuar o [modulo complementar sobre casos de uso do GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/) e registrar os aprendizados.
+2. Iniciar o [modulo 3 do curso](03-ferramentas-mcp-ambientes.md).
+3. Executar o [exemplo do dominio 2](../examples/02-politica-ferramentas.md) e avancar o [exercicio correspondente](../exercises/02-ferramentas-ambiente.md).
