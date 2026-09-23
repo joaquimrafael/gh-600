@@ -40,7 +40,7 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 
 ### Módulo complementar
 
-- [ ] Casos de uso de IA para desenvolvedores com GitHub Copilot — iniciado em 2026-09-22
+- [x] Casos de uso de IA para desenvolvedores com GitHub Copilot — concluído em 2026-09-22
 
 ## Progresso da prova
 
@@ -48,5 +48,5 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 
 ## Próximo passo
 
-- Continuar o [módulo complementar sobre casos de uso do GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/).
-- Depois, iniciar o [resumo do módulo 3](docs/03-ferramentas-mcp-ambientes.md).
+- Iniciar o [Módulo 3: ferramentas, MCP e ambientes de execução](docs/03-ferramentas-mcp-ambientes.md) em 2026-09-23.
+- Avançar o [exercício do Domínio 2](exercises/02-ferramentas-ambiente.md) com apoio do exemplo de política de ferramentas.

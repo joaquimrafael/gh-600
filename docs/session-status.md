@@ -43,7 +43,7 @@ Dominio 1 - Preparar a arquitetura do agente e os processos do SDLC
 - Registrada a diferenca entre `CODEOWNERS`, rulesets e protecao de branch no [resumo do modulo 2](02-arquitetura-agente-integracao.md#dúvida-resolvida-qual-é-a-diferença-entre-codeowners-rulesets-e-proteção-de-branch).
 - Aprendizado principal: `CODEOWNERS` define quem deve revisar; rulesets e protecao de branch definem as condicoes impostas pela plataforma.
 
-### Atividade complementar em andamento
+### Atividade complementar concluida
 
 Casos de uso de IA para desenvolvedores com GitHub Copilot
 
@@ -51,13 +51,13 @@ Casos de uso de IA para desenvolvedores com GitHub Copilot
 - Duracao: 49 minutos, em 7 unidades.
 - Relacao principal: complemento ao dominio 1 da prova e ao estudo do SDLC iniciado nos modulos 1 e 2 do curso.
 - Foco: produtividade, preferencias do desenvolvedor, uso de IA nas etapas do SDLC, limitacoes e medicao de impacto.
-- Status: iniciado em 2026-09-22.
+- Status: concluido em 2026-09-22.
 
 ### Proximo modulo do curso
 
 Curso - Modulo 3: Ferramentas, MCP e ambientes de execucao
 
-- Iniciar depois da revisao do dominio 1 e do inicio do modulo complementar.
+- Inicio planejado para 2026-09-23, depois da conclusao da primeira revisao do dominio 1 e do modulo complementar.
 - Resumo preparado: [docs/03-ferramentas-mcp-ambientes.md](03-ferramentas-mcp-ambientes.md).
 - Checkpoint principal: [exercises/02-ferramentas-ambiente.md](../exercises/02-ferramentas-ambiente.md), referente ao dominio 2 da prova.
 
@@ -84,6 +84,6 @@ Fonte dos dominios e pesos: [guia oficial da prova GH-600](https://learn.microso
 
 ## Proximo passo concreto
 
-1. Continuar o [modulo complementar sobre casos de uso do GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/) e registrar os aprendizados.
-2. Iniciar o [modulo 3 do curso](03-ferramentas-mcp-ambientes.md).
-3. Executar o [exemplo do dominio 2](../examples/02-politica-ferramentas.md) e avancar o [exercicio correspondente](../exercises/02-ferramentas-ambiente.md).
+1. Iniciar o [modulo 3 do curso](03-ferramentas-mcp-ambientes.md) em 2026-09-23.
+2. Executar o [exemplo do dominio 2](../examples/02-politica-ferramentas.md).
+3. Avancar o [exercicio do dominio 2](../exercises/02-ferramentas-ambiente.md) e registrar os aprendizados e duvidas.

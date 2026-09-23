@@ -84,14 +84,14 @@ Um modulo do curso nao equivale necessariamente a um dominio da prova. Por exemp
 
 Este modulo pertence a trilha **GitHub Copilot Fundamentals Part 1 of 2** e nao aos seis modulos oficiais do curso GH-600T00-A. Ele foi incluido como complemento ao dominio 1 da prova por relacionar o GitHub Copilot ao fluxo do desenvolvedor e as etapas do SDLC.
 
-- [ ] Identificar como o GitHub Copilot pode aumentar a produtividade do desenvolvedor.
-- [ ] Relacionar casos de uso do Copilot as etapas do SDLC.
-- [ ] Entender como preferencias individuais afetam a experiencia de desenvolvimento.
-- [ ] Avaliar limitacoes da codificacao assistida por IA e formas de medir seu impacto.
+- [x] Identificar como o GitHub Copilot pode aumentar a produtividade do desenvolvedor.
+- [x] Relacionar casos de uso do Copilot as etapas do SDLC.
+- [x] Entender como preferencias individuais afetam a experiencia de desenvolvimento.
+- [x] Avaliar limitacoes da codificacao assistida por IA e formas de medir seu impacto.
 - Duracao oficial: 49 minutos, distribuidos em 7 unidades.
 - Modulo oficial: [Developer use cases for AI with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/)
 - Cobertura complementar: dominio 1, com apoio aos dominios 2 e 4.
-- Status: iniciado em 2026-09-22.
+- Status: concluido em 2026-09-22.
 
 ## Dominios da prova
 
