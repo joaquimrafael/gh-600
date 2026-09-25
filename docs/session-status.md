@@ -75,8 +75,8 @@ Os resumos abaixo ja foram criados a partir dos modulos oficiais, mas isso nao r
 | Dominio | Peso | Estado |
 | --- | --- | --- |
 | 1. Arquitetura e processos do SDLC | 15-20% | Primeira revisao concluida; modulos 1 e 2 concluidos e [exemplo preparado](../examples/01-fluxo-agente-sdlc.md) |
-| 2. Ferramentas e ambiente | 20-25% | [Exemplo preparado](../examples/02-politica-ferramentas.md); exercicio nao concluido |
-| 3. Memoria, estado e execucao | 10-15% | Iniciado em 2026-09-25; [exemplo preparado](../examples/03-memoria-estado.md); exercicio em andamento |
+| 2. Ferramentas e ambiente | 20-25% | Iniciado em 2026-09-25; [exemplo preparado](../examples/02-politica-ferramentas.md); exercicio em andamento |
+| 3. Memoria, estado e execucao | 10-15% | [Exemplo preparado](../examples/03-memoria-estado.md); exercicio nao concluido |
 | 4. Avaliacao, analise de erro e ajuste | 15-20% | [Exemplo preparado](../examples/04-avaliacao-planos.md); exercicio nao concluido |
 | 5. Coordenacao multiagente | 15-20% | [Exemplo preparado](../examples/05-orquestracao-multiagente.md); exercicio nao concluido |
 | 6. Guardrails e prestacao de contas | 10-15% | [Exemplo preparado](../examples/06-guardrails-auditoria.md); exercicio nao concluido |
@@ -88,4 +88,3 @@ Fonte dos dominios e pesos: [guia oficial da prova GH-600](https://learn.microso
 1. Continuar o [modulo 3 do curso](03-ferramentas-mcp-ambientes.md) em andamento desde 2026-09-25.
 2. Executar o [exemplo do dominio 2](../examples/02-politica-ferramentas.md).
 3. Avancar o [exercicio do dominio 2](../exercises/02-ferramentas-ambiente.md) e registrar os aprendizados e duvidas.
-4. Preparar o [exercicio do dominio 3](../exercises/03-memoria-estado.md) para complementar o estudo do modulo 3.

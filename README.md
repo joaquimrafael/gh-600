@@ -45,10 +45,9 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 ## Progresso da prova
 
 - [x] Primeira revisão do Domínio 1 concluída, com os módulos 1 e 2 estudados e revisados.
-- [ ] Domínio 3: memória, estado e execução iniciado em 2026-09-25, com foco no módulo 3 e no exercício correspondente.
+- [ ] Domínio 2: ferramentas e ambiente iniciado em 2026-09-25, com foco no Módulo 3 e no exercício correspondente.
 
 ## Próximo passo
 
 - Continuar o [Módulo 3: ferramentas, MCP e ambientes de execução](docs/03-ferramentas-mcp-ambientes.md) em andamento desde 2026-09-25.
 - Avançar o [exercício do Domínio 2](exercises/02-ferramentas-ambiente.md) com apoio do exemplo de política de ferramentas.
-- Preparar o [exercício do Domínio 3](exercises/03-memoria-estado.md) conforme o módulo 3 e o mapping de prova.
