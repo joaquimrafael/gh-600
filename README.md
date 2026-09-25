@@ -32,7 +32,7 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 
 - [x] Módulo 1: fundamentos da IA agêntica no GitHub
 - [x] Módulo 2: arquitetura do agente e integração com o SDLC
-- [ ] Módulo 3: ferramentas, MCP e ambientes de execução
+- [ ] Módulo 3: ferramentas, MCP e ambientes de execução (iniciado em 2026-09-25)
 - [ ] Módulo 4: sistemas multiagente e orquestração
 - [ ] Módulo 5: memória, estado e avaliação
 - [ ] Módulo 6: governança, guardrails e operações
@@ -45,8 +45,10 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 ## Progresso da prova
 
 - [x] Primeira revisão do Domínio 1 concluída, com os módulos 1 e 2 estudados e revisados.
+- [ ] Domínio 3: memória, estado e execução iniciado em 2026-09-25, com foco no módulo 3 e no exercício correspondente.
 
 ## Próximo passo
 
-- Iniciar o [Módulo 3: ferramentas, MCP e ambientes de execução](docs/03-ferramentas-mcp-ambientes.md) em 2026-09-23.
+- Continuar o [Módulo 3: ferramentas, MCP e ambientes de execução](docs/03-ferramentas-mcp-ambientes.md) em andamento desde 2026-09-25.
 - Avançar o [exercício do Domínio 2](exercises/02-ferramentas-ambiente.md) com apoio do exemplo de política de ferramentas.
+- Preparar o [exercício do Domínio 3](exercises/03-memoria-estado.md) conforme o módulo 3 e o mapping de prova.

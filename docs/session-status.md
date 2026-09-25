@@ -53,13 +53,14 @@ Casos de uso de IA para desenvolvedores com GitHub Copilot
 - Foco: produtividade, preferencias do desenvolvedor, uso de IA nas etapas do SDLC, limitacoes e medicao de impacto.
 - Status: concluido em 2026-09-22.
 
-### Proximo modulo do curso
+### Modulo do curso em andamento
 
 Curso - Modulo 3: Ferramentas, MCP e ambientes de execucao
 
-- Inicio planejado para 2026-09-23, depois da conclusao da primeira revisao do dominio 1 e do modulo complementar.
+- Inicio em 2026-09-25, depois da conclusao da primeira revisao do dominio 1 e do modulo complementar.
 - Resumo preparado: [docs/03-ferramentas-mcp-ambientes.md](03-ferramentas-mcp-ambientes.md).
 - Checkpoint principal: [exercises/02-ferramentas-ambiente.md](../exercises/02-ferramentas-ambiente.md), referente ao dominio 2 da prova.
+- Status da trilha: iniciado; proximo passo e consolidar os conceitos de MCP, allow lists e limites de execucao.
 
 ### Material preparado para os modulos seguintes
 
@@ -75,7 +76,7 @@ Os resumos abaixo ja foram criados a partir dos modulos oficiais, mas isso nao r
 | --- | --- | --- |
 | 1. Arquitetura e processos do SDLC | 15-20% | Primeira revisao concluida; modulos 1 e 2 concluidos e [exemplo preparado](../examples/01-fluxo-agente-sdlc.md) |
 | 2. Ferramentas e ambiente | 20-25% | [Exemplo preparado](../examples/02-politica-ferramentas.md); exercicio nao concluido |
-| 3. Memoria, estado e execucao | 10-15% | [Exemplo preparado](../examples/03-memoria-estado.md); exercicio nao concluido |
+| 3. Memoria, estado e execucao | 10-15% | Iniciado em 2026-09-25; [exemplo preparado](../examples/03-memoria-estado.md); exercicio em andamento |
 | 4. Avaliacao, analise de erro e ajuste | 15-20% | [Exemplo preparado](../examples/04-avaliacao-planos.md); exercicio nao concluido |
 | 5. Coordenacao multiagente | 15-20% | [Exemplo preparado](../examples/05-orquestracao-multiagente.md); exercicio nao concluido |
 | 6. Guardrails e prestacao de contas | 10-15% | [Exemplo preparado](../examples/06-guardrails-auditoria.md); exercicio nao concluido |
@@ -84,6 +85,7 @@ Fonte dos dominios e pesos: [guia oficial da prova GH-600](https://learn.microso
 
 ## Proximo passo concreto
 
-1. Iniciar o [modulo 3 do curso](03-ferramentas-mcp-ambientes.md) em 2026-09-23.
+1. Continuar o [modulo 3 do curso](03-ferramentas-mcp-ambientes.md) em andamento desde 2026-09-25.
 2. Executar o [exemplo do dominio 2](../examples/02-politica-ferramentas.md).
 3. Avancar o [exercicio do dominio 2](../exercises/02-ferramentas-ambiente.md) e registrar os aprendizados e duvidas.
+4. Preparar o [exercicio do dominio 3](../exercises/03-memoria-estado.md) para complementar o estudo do modulo 3.

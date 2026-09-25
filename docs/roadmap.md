@@ -51,6 +51,7 @@ Um modulo do curso nao equivale necessariamente a um dominio da prova. Por exemp
 - [ ] Definir contexto, boundaries, limites e protecoes de execucao.
 - Resumo: [Ferramentas, MCP e ambientes de execucao](03-ferramentas-mcp-ambientes.md)
 - Modulo oficial: [Tooling, MCP, and Agent Execution Environments](https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/)
+- Status: iniciado em 2026-09-25.
 
 ### Trilha 2 de 2
 
