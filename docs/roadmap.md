@@ -46,12 +46,12 @@ Um modulo do curso nao equivale necessariamente a um dominio da prova. Por exemp
 
 #### 3. Ferramentas, MCP e ambientes de execucao
 
-- [ ] Entender como agentes interagem com APIs e workflows do GitHub.
-- [ ] Configurar MCP servers, registries e allow lists.
-- [ ] Definir contexto, boundaries, limites e protecoes de execucao.
+- [x] Entender como agentes interagem com APIs e workflows do GitHub.
+- [x] Configurar MCP servers, registries e allow lists.
+- [x] Definir contexto, boundaries, limites e protecoes de execucao.
 - Resumo: [Ferramentas, MCP e ambientes de execucao](03-ferramentas-mcp-ambientes.md)
 - Modulo oficial: [Tooling, MCP, and Agent Execution Environments](https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/)
-- Status: iniciado em 2026-09-25.
+- Status: concluido em 2026-09-27; revisao e exercicio do dominio 2 pendentes.
 
 ### Trilha 2 de 2
 

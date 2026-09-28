@@ -32,7 +32,7 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 
 - [x] Módulo 1: fundamentos da IA agêntica no GitHub
 - [x] Módulo 2: arquitetura do agente e integração com o SDLC
-- [ ] Módulo 3: ferramentas, MCP e ambientes de execução (iniciado em 2026-09-25)
+- [x] Módulo 3: ferramentas, MCP e ambientes de execução — concluído em 2026-09-27
 - [ ] Módulo 4: sistemas multiagente e orquestração
 - [ ] Módulo 5: memória, estado e avaliação
 - [ ] Módulo 6: governança, guardrails e operações
@@ -45,9 +45,10 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 ## Progresso da prova
 
 - [x] Primeira revisão do Domínio 1 concluída, com os módulos 1 e 2 estudados e revisados.
-- [ ] Domínio 2: ferramentas e ambiente iniciado em 2026-09-25, com foco no Módulo 3 e no exercício correspondente.
+- [ ] Domínio 2: Módulo 3 concluído; revisão e exercício ainda pendentes.
 
 ## Próximo passo
 
-- Continuar o [Módulo 3: ferramentas, MCP e ambientes de execução](docs/03-ferramentas-mcp-ambientes.md) em andamento desde 2026-09-25.
-- Avançar o [exercício do Domínio 2](exercises/02-ferramentas-ambiente.md) com apoio do exemplo de política de ferramentas.
+- Revisar o [Módulo 3: ferramentas, MCP e ambientes de execução](docs/03-ferramentas-mcp-ambientes.md).
+- Concluir o [exercício do Domínio 2](exercises/02-ferramentas-ambiente.md) com apoio do exemplo de política de ferramentas.
+- Depois, iniciar o [Módulo 4: sistemas multiagente e orquestração](docs/04-sistemas-multiagente-orquestracao.md).
