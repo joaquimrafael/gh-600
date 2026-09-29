@@ -51,7 +51,7 @@ Um modulo do curso nao equivale necessariamente a um dominio da prova. Por exemp
 - [x] Definir contexto, boundaries, limites e protecoes de execucao.
 - Resumo: [Ferramentas, MCP e ambientes de execucao](03-ferramentas-mcp-ambientes.md)
 - Modulo oficial: [Tooling, MCP, and Agent Execution Environments](https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/)
-- Status: concluido em 2026-09-27; revisao e exercicio do dominio 2 pendentes.
+- Status: concluido em 2026-09-27 e revisado em 2026-09-29; exercicio do dominio 2 concluido em 2026-09-29.
 
 ### Trilha 2 de 2
 
@@ -62,6 +62,7 @@ Um modulo do curso nao equivale necessariamente a um dominio da prova. Por exemp
 - [ ] Produzir evidencias, atribuicao e handoffs observaveis.
 - Resumo: [Sistemas multiagente e orquestracao](04-sistemas-multiagente-orquestracao.md)
 - Modulo oficial: [Multi-Agent Systems and Orchestration](https://learn.microsoft.com/en-us/training/modules/multi-agent-systems-orchestration/)
+- Status: iniciado em 2026-09-29.
 
 #### 5. Memoria, estado e avaliacao
 

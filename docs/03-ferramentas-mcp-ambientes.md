@@ -83,12 +83,12 @@ O objetivo e tornar a execucao resiliente, controlada, auditavel e governada por
 
 ## Checklist de aprendizado
 
-- [ ] Consigo explicar como APIs, branches, PRs e workflows participam de uma execucao agente.
-- [ ] Sei diferenciar servidor MCP, registro MCP e allow list.
-- [ ] Consigo definir escopo por repositorio, branch, workflow, permissao e ferramenta.
-- [ ] Entendo por que instrucoes nao substituem controles tecnicos do ambiente.
-- [ ] Sei propor tratamento de erro, retry limitado, rollback e escalacao.
-- [ ] Reconheco quais evidencias tornam uma acao do agente rastreavel.
+- [x] Consigo explicar como APIs, branches, PRs e workflows participam de uma execucao agente.
+- [x] Sei diferenciar servidor MCP, registro MCP e allow list.
+- [x] Consigo definir escopo por repositorio, branch, workflow, permissao e ferramenta.
+- [x] Entendo por que instrucoes nao substituem controles tecnicos do ambiente.
+- [x] Sei propor tratamento de erro, retry limitado, rollback e escalacao.
+- [x] Reconheco quais evidencias tornam uma acao do agente rastreavel.
 
 ## Perguntas de revisao
 
@@ -100,15 +100,15 @@ O objetivo e tornar a execucao resiliente, controlada, auditavel e governada por
 
 ## Respostas
 
-1.
+1. Um workflow tradicional funciona atraves de um arquivo YAML, em que sao registrados passos deterministicos a serem realizados pelas actions. Enquanto isso, um Agentic Workflow e definido em um arquivo Markdown, com o objetivo escrito em linguagem natural e os gatilhos, permissoes, ferramentas e saidas seguras definidos pelo frontmatter. Esse arquivo e compilado em um workflow do GitHub Actions, permitindo raciocinio contextual dentro dos limites declarados, sem depender apenas das instrucoes para garantir a seguranca da execucao.
 
-2.
+2. O servidor MCP expoe as ferramentas e encaminha o seu uso a servicos externos de forma padronizada, enquanto o registro cataloga os servidores disponiveis e facilita sua descoberta. A allow list restringe quais servidores MCP podem ser usados dentro de uma organizacao. Assim, o servidor oferece a capacidade, o registro permite encontra-la e a allow list aplica o limite de uso.
 
-3.
+3. Repositorio, branch, workflow ou job, permissoes do token, ferramentas disponiveis e arquivos ou diretorios dentro do escopo. Esses elementos definem onde o agente pode operar, quais informacoes pode acessar e quais acoes pode executar.
 
-4.
+4. Tokens somente leitura impedem que o agente altere diretamente areas sensiveis do projeto. As saidas seguras limitam a escrita a operacoes declaradas e validadas por uma etapa controlada, unificando a forma como os agentes finalizam o trabalho. Essa separacao reduz o privilegio e o impacto de uma instrucao maliciosa ou de uma decisao incorreta.
 
-5.
+5. O retry deve dar lugar a escalacao humana quando as tentativas limitadas nao resolvem a falha, quando o erro nao e transitorio ou quando envolve permissao, seguranca, politica ou uma decisao de alto impacto. A repeticao so deve ser usada para falhas que podem desaparecer sem mudar a tarefa; insistir em um erro deterministico apenas repete o problema e pode aumentar o risco.
 
 ## Relacao com o GH-600
 

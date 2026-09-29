@@ -1,6 +1,6 @@
 # Estado da trilha
 
-Atualizado em: 2026-09-27
+Atualizado em: 2026-09-29
 
 ## Convencao
 
@@ -35,7 +35,7 @@ Consulte o [mapa entre curso e prova](roadmap.md#mapa-entre-curso-e-prova). As d
 - Resumo: [docs/03-ferramentas-mcp-ambientes.md](03-ferramentas-mcp-ambientes.md)
 - Fonte: [Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/agent-tooling-mcp-execution-environments/)
 - Foco: APIs, workflows, MCP, allow lists, contexto, limites e protecoes de execucao.
-- Status: concluido em 2026-09-27; revisao e exercicio do dominio 2 pendentes.
+- Status: concluido em 2026-09-27 e revisado em 2026-09-29; exercicio do dominio 2 concluido em 2026-09-29.
 
 ### Primeira revisao do Dominio 1 concluida
 
@@ -60,11 +60,19 @@ Casos de uso de IA para desenvolvedores com GitHub Copilot
 - Foco: produtividade, preferencias do desenvolvedor, uso de IA nas etapas do SDLC, limitacoes e medicao de impacto.
 - Status: concluido em 2026-09-22.
 
+### Modulo do curso em andamento
+
+Curso - Modulo 4: Sistemas multiagente e orquestracao
+
+- Inicio em 2026-09-29.
+- Resumo: [docs/04-sistemas-multiagente-orquestracao.md](04-sistemas-multiagente-orquestracao.md).
+- Checkpoint principal: [exercises/05-multiagente.md](../exercises/05-multiagente.md), referente ao dominio 5 da prova.
+- Status: iniciado; proximo passo e estudar responsabilidades, isolamento, handoffs, conflitos e recuperacao.
+
 ### Material preparado para os modulos seguintes
 
 Os resumos abaixo ja foram criados a partir dos modulos oficiais, mas isso nao representa conclusao do estudo ou dos checklists:
 
-- [Curso - Modulo 4: Sistemas multiagente e orquestracao](04-sistemas-multiagente-orquestracao.md)
 - [Curso - Modulo 5: Memoria, estado e avaliacao](05-memoria-estado-avaliacao.md)
 - [Curso - Modulo 6: Governanca, guardrails e operacoes](06-governanca-guardrails-operacoes.md)
 
@@ -73,17 +81,16 @@ Os resumos abaixo ja foram criados a partir dos modulos oficiais, mas isso nao r
 | Dominio | Peso | Estado |
 | --- | --- | --- |
 | 1. Arquitetura e processos do SDLC | 15-20% | Primeira revisao concluida; modulos 1 e 2 concluidos e [exemplo preparado](../examples/01-fluxo-agente-sdlc.md) |
-| 2. Ferramentas e ambiente | 20-25% | Modulo 3 concluido; revisao e exercicio pendentes; [exemplo preparado](../examples/02-politica-ferramentas.md) |
+| 2. Ferramentas e ambiente | 20-25% | Primeira revisao concluida; modulo 3 e [exercicio](../exercises/02-ferramentas-ambiente.md) concluidos; [exemplo preparado](../examples/02-politica-ferramentas.md) |
 | 3. Memoria, estado e execucao | 10-15% | [Exemplo preparado](../examples/03-memoria-estado.md); exercicio nao concluido |
 | 4. Avaliacao, analise de erro e ajuste | 15-20% | [Exemplo preparado](../examples/04-avaliacao-planos.md); exercicio nao concluido |
-| 5. Coordenacao multiagente | 15-20% | [Exemplo preparado](../examples/05-orquestracao-multiagente.md); exercicio nao concluido |
+| 5. Coordenacao multiagente | 15-20% | Iniciado em 2026-09-29 com o modulo 4; [exemplo preparado](../examples/05-orquestracao-multiagente.md); exercicio nao concluido |
 | 6. Guardrails e prestacao de contas | 10-15% | [Exemplo preparado](../examples/06-guardrails-auditoria.md); exercicio nao concluido |
 
 Fonte dos dominios e pesos: [guia oficial da prova GH-600](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-600).
 
 ## Proximo passo concreto
 
-1. Revisar o [modulo 3 do curso](03-ferramentas-mcp-ambientes.md).
-2. Executar o [exemplo do dominio 2](../examples/02-politica-ferramentas.md).
-3. Concluir o [exercicio do dominio 2](../exercises/02-ferramentas-ambiente.md) e registrar os aprendizados e duvidas.
-4. Depois da revisao, iniciar o [modulo 4 do curso](04-sistemas-multiagente-orquestracao.md).
+1. Continuar o [modulo 4 do curso](04-sistemas-multiagente-orquestracao.md).
+2. Executar o [exemplo do dominio 5](../examples/05-orquestracao-multiagente.md).
+3. Avancar o [exercicio do dominio 5](../exercises/05-multiagente.md) e registrar os aprendizados e duvidas.
