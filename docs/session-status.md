@@ -1,6 +1,6 @@
 # Estado da trilha
 
-Atualizado em: 2026-09-29
+Atualizado em: 2026-10-01
 
 ## Convencao
 
@@ -37,6 +37,13 @@ Consulte o [mapa entre curso e prova](roadmap.md#mapa-entre-curso-e-prova). As d
 - Foco: APIs, workflows, MCP, allow lists, contexto, limites e protecoes de execucao.
 - Status: concluido em 2026-09-27 e revisado em 2026-09-29; exercicio do dominio 2 concluido em 2026-09-29.
 
+#### Curso - Modulo 4: Sistemas multiagente e orquestracao
+
+- Resumo: [docs/04-sistemas-multiagente-orquestracao.md](04-sistemas-multiagente-orquestracao.md)
+- Fonte: [Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/multi-agent-systems-orchestration/)
+- Foco: responsabilidades, isolamento, handoffs, conflitos, observabilidade e recuperacao.
+- Status: concluido em 2026-10-01; revisao e exercicio do dominio 5 pendentes.
+
 ### Primeira revisao do Dominio 1 concluida
 
 Dominio 1 - Preparar a arquitetura do agente e os processos do SDLC
@@ -60,15 +67,6 @@ Casos de uso de IA para desenvolvedores com GitHub Copilot
 - Foco: produtividade, preferencias do desenvolvedor, uso de IA nas etapas do SDLC, limitacoes e medicao de impacto.
 - Status: concluido em 2026-09-22.
 
-### Modulo do curso em andamento
-
-Curso - Modulo 4: Sistemas multiagente e orquestracao
-
-- Inicio em 2026-09-29.
-- Resumo: [docs/04-sistemas-multiagente-orquestracao.md](04-sistemas-multiagente-orquestracao.md).
-- Checkpoint principal: [exercises/05-multiagente.md](../exercises/05-multiagente.md), referente ao dominio 5 da prova.
-- Status: iniciado; proximo passo e estudar responsabilidades, isolamento, handoffs, conflitos e recuperacao.
-
 ### Material preparado para os modulos seguintes
 
 Os resumos abaixo ja foram criados a partir dos modulos oficiais, mas isso nao representa conclusao do estudo ou dos checklists:
@@ -84,13 +82,13 @@ Os resumos abaixo ja foram criados a partir dos modulos oficiais, mas isso nao r
 | 2. Ferramentas e ambiente | 20-25% | Primeira revisao concluida; modulo 3 e [exercicio](../exercises/02-ferramentas-ambiente.md) concluidos; [exemplo preparado](../examples/02-politica-ferramentas.md) |
 | 3. Memoria, estado e execucao | 10-15% | [Exemplo preparado](../examples/03-memoria-estado.md); exercicio nao concluido |
 | 4. Avaliacao, analise de erro e ajuste | 15-20% | [Exemplo preparado](../examples/04-avaliacao-planos.md); exercicio nao concluido |
-| 5. Coordenacao multiagente | 15-20% | Iniciado em 2026-09-29 com o modulo 4; [exemplo preparado](../examples/05-orquestracao-multiagente.md); exercicio nao concluido |
+| 5. Coordenacao multiagente | 15-20% | Modulo 4 concluido; revisao e exercicio pendentes; [exemplo preparado](../examples/05-orquestracao-multiagente.md) |
 | 6. Guardrails e prestacao de contas | 10-15% | [Exemplo preparado](../examples/06-guardrails-auditoria.md); exercicio nao concluido |
 
 Fonte dos dominios e pesos: [guia oficial da prova GH-600](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-600).
 
 ## Proximo passo concreto
 
-1. Continuar o [modulo 4 do curso](04-sistemas-multiagente-orquestracao.md).
+1. Revisar o [modulo 4 do curso](04-sistemas-multiagente-orquestracao.md).
 2. Executar o [exemplo do dominio 5](../examples/05-orquestracao-multiagente.md).
-3. Avancar o [exercicio do dominio 5](../exercises/05-multiagente.md) e registrar os aprendizados e duvidas.
+3. Concluir o [exercicio do dominio 5](../exercises/05-multiagente.md) e registrar os aprendizados e duvidas.

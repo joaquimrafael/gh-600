@@ -57,12 +57,12 @@ Um modulo do curso nao equivale necessariamente a um dominio da prova. Por exemp
 
 #### 4. Sistemas multiagente e orquestracao
 
-- [ ] Definir responsabilidades e coordenar agentes com GitHub workflows.
-- [ ] Isolar execucoes e tratar conflitos, falhas e recuperacao.
-- [ ] Produzir evidencias, atribuicao e handoffs observaveis.
+- [x] Definir responsabilidades e coordenar agentes com GitHub workflows.
+- [x] Isolar execucoes e tratar conflitos, falhas e recuperacao.
+- [x] Produzir evidencias, atribuicao e handoffs observaveis.
 - Resumo: [Sistemas multiagente e orquestracao](04-sistemas-multiagente-orquestracao.md)
 - Modulo oficial: [Multi-Agent Systems and Orchestration](https://learn.microsoft.com/en-us/training/modules/multi-agent-systems-orchestration/)
-- Status: iniciado em 2026-09-29.
+- Status: concluido em 2026-10-01; revisao e exercicio do dominio 5 pendentes.
 
 #### 5. Memoria, estado e avaliacao
 
