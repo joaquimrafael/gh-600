@@ -86,12 +86,12 @@ Projetar para falha significa assumir que agentes e workflows podem nao convergi
 
 ## Checklist de aprendizado
 
-- [ ] Consigo atribuir responsabilidades estreitas e nao sobrepostas a varios agentes.
-- [ ] Sei escolher entre orquestracao sequencial, paralela e fan-out/fan-in.
-- [ ] Entendo como branches, workflows, permissoes e concorrencia isolam execucoes.
-- [ ] Sei diferenciar conflitos textuais, semanticos, de politica e de duplicidade.
-- [ ] Consigo definir evidencias e handoffs revisaveis no GitHub.
-- [ ] Sei propor retry limitado, rollback e escalacao para falhas de coordenacao.
+- [x] Consigo atribuir responsabilidades estreitas e nao sobrepostas a varios agentes.
+- [x] Sei escolher entre orquestracao sequencial, paralela e fan-out/fan-in.
+- [x] Entendo como branches, workflows, permissoes e concorrencia isolam execucoes.
+- [x] Sei diferenciar conflitos textuais, semanticos, de politica e de duplicidade.
+- [x] Consigo definir evidencias e handoffs revisaveis no GitHub.
+- [x] Sei propor retry limitado, rollback e escalacao para falhas de coordenacao.
 
 ## Perguntas de revisao
 
@@ -112,6 +112,10 @@ Projetar para falha significa assumir que agentes e workflows podem nao convergi
 4.
 
 5.
+
+## Duvida resolvida
+
+**O que e fan-out/fan-in e por que esse nome?** Fan-out distribui uma tarefa entre varios agentes, normalmente em paralelo; fan-in reune os resultados. O nome representa o fluxo abrindo e fechando como um leque.
 
 ## Relacao com o GH-600
 

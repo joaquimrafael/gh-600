@@ -110,6 +110,10 @@ O objetivo e tornar a execucao resiliente, controlada, auditavel e governada por
 
 5. O retry deve dar lugar a escalacao humana quando as tentativas limitadas nao resolvem a falha, quando o erro nao e transitorio ou quando envolve permissao, seguranca, politica ou uma decisao de alto impacto. A repeticao so deve ser usada para falhas que podem desaparecer sem mudar a tarefa; insistir em um erro deterministico apenas repete o problema e pode aumentar o risco.
 
+## Duvida resolvida
+
+**Workflows e environments sao equivalentes?** Nao. O workflow coordena jobs; o runner ou container fornece os recursos de execucao; e o GitHub Environment aplica aprovacoes, secrets e protecoes. O agente usa apenas os recursos, ferramentas e permissoes liberados para seu job.
+
 ## Relacao com o GH-600
 
 Este modulo cobre a base pratica do dominio de ferramentas e ambiente: selecao e permissao de ferramentas, configuracao de MCP, escopo de execucao, caminhos seguros, tratamento de falhas e rastreabilidade.

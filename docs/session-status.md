@@ -1,6 +1,6 @@
 # Estado da trilha
 
-Atualizado em: 2026-10-01
+Atualizado em: 2026-10-03
 
 ## Convencao
 
@@ -56,6 +56,8 @@ Dominio 1 - Preparar a arquitetura do agente e os processos do SDLC
 
 - Registrada a diferenca entre `CODEOWNERS`, rulesets e protecao de branch no [resumo do modulo 2](02-arquitetura-agente-integracao.md#dúvida-resolvida-qual-é-a-diferença-entre-codeowners-rulesets-e-proteção-de-branch).
 - Aprendizado principal: `CODEOWNERS` define quem deve revisar; rulesets e protecao de branch definem as condicoes impostas pela plataforma.
+- Registrada a diferenca entre workflow, runner e environment no [resumo do modulo 3](03-ferramentas-mcp-ambientes.md#duvida-resolvida).
+- Registrado o padrao fan-out/fan-in no [resumo do modulo 4](04-sistemas-multiagente-orquestracao.md#duvida-resolvida).
 
 ### Atividade complementar concluida
 
