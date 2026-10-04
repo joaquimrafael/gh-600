@@ -62,7 +62,7 @@ Um modulo do curso nao equivale necessariamente a um dominio da prova. Por exemp
 - [x] Produzir evidencias, atribuicao e handoffs observaveis.
 - Resumo: [Sistemas multiagente e orquestracao](04-sistemas-multiagente-orquestracao.md)
 - Modulo oficial: [Multi-Agent Systems and Orchestration](https://learn.microsoft.com/en-us/training/modules/multi-agent-systems-orchestration/)
-- Status: concluido em 2026-10-01; revisao e exercicio do dominio 5 pendentes.
+- Status: concluido em 2026-10-01 e revisado em 2026-10-04; exercicio do dominio 5 concluido. Reforcar retry limitado, rollback e escalacao, conforme o item ainda aberto no checklist do resumo.
 
 #### 5. Memoria, estado e avaliacao
 
@@ -71,6 +71,7 @@ Um modulo do curso nao equivale necessariamente a um dominio da prova. Por exemp
 - [ ] Definir sinais de avaliacao, quality gates e analise de falhas.
 - Resumo: [Memoria, estado e avaliacao](05-memoria-estado-avaliacao.md)
 - Modulo oficial: [Memory, State, and Evaluation](https://learn.microsoft.com/en-us/training/modules/memory-state-evaluation/)
+- Status: iniciado em 2026-10-04; estudo, revisao e exercicios dos dominios 3 e 4 em andamento ou pendentes.
 
 #### 6. Governanca, guardrails e operacoes
 

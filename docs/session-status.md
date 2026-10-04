@@ -1,6 +1,6 @@
 # Estado da trilha
 
-Atualizado em: 2026-10-03
+Atualizado em: 2026-10-04
 
 ## Convencao
 
@@ -42,7 +42,17 @@ Consulte o [mapa entre curso e prova](roadmap.md#mapa-entre-curso-e-prova). As d
 - Resumo: [docs/04-sistemas-multiagente-orquestracao.md](04-sistemas-multiagente-orquestracao.md)
 - Fonte: [Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/multi-agent-systems-orchestration/)
 - Foco: responsabilidades, isolamento, handoffs, conflitos, observabilidade e recuperacao.
-- Status: concluido em 2026-10-01; revisao e exercicio do dominio 5 pendentes.
+- Status: concluido em 2026-10-01 e revisado em 2026-10-04; exercicio do dominio 5 concluido.
+- Ponto a reforcar: retry limitado, rollback e escalacao, conforme o item ainda aberto no checklist do resumo.
+
+### Em andamento
+
+#### Curso - Modulo 5: Memoria, estado e avaliacao
+
+- Resumo: [docs/05-memoria-estado-avaliacao.md](05-memoria-estado-avaliacao.md)
+- Fonte: [Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/memory-state-evaluation/)
+- Cobertura da prova: dominios 3 e 4.
+- Status: iniciado em 2026-10-04; revisao e exercicios dos dominios 3 e 4 pendentes.
 
 ### Primeira revisao do Dominio 1 concluida
 
@@ -57,7 +67,7 @@ Dominio 1 - Preparar a arquitetura do agente e os processos do SDLC
 - Registrada a diferenca entre `CODEOWNERS`, rulesets e protecao de branch no [resumo do modulo 2](02-arquitetura-agente-integracao.md#dúvida-resolvida-qual-é-a-diferença-entre-codeowners-rulesets-e-proteção-de-branch).
 - Aprendizado principal: `CODEOWNERS` define quem deve revisar; rulesets e protecao de branch definem as condicoes impostas pela plataforma.
 - Registrada a diferenca entre workflow, runner e environment no [resumo do modulo 3](03-ferramentas-mcp-ambientes.md#duvida-resolvida).
-- Registrado o padrao fan-out/fan-in no [resumo do modulo 4](04-sistemas-multiagente-orquestracao.md#duvida-resolvida).
+- O padrao fan-out/fan-in aparece na secao de [orquestracao por eventos e artefatos do modulo 4](04-sistemas-multiagente-orquestracao.md#2-orquestracao-por-eventos-e-artefatos).
 
 ### Atividade complementar concluida
 
@@ -73,7 +83,6 @@ Casos de uso de IA para desenvolvedores com GitHub Copilot
 
 Os resumos abaixo ja foram criados a partir dos modulos oficiais, mas isso nao representa conclusao do estudo ou dos checklists:
 
-- [Curso - Modulo 5: Memoria, estado e avaliacao](05-memoria-estado-avaliacao.md)
 - [Curso - Modulo 6: Governanca, guardrails e operacoes](06-governanca-guardrails-operacoes.md)
 
 ## Cobertura da prova
@@ -82,15 +91,15 @@ Os resumos abaixo ja foram criados a partir dos modulos oficiais, mas isso nao r
 | --- | --- | --- |
 | 1. Arquitetura e processos do SDLC | 15-20% | Primeira revisao concluida; modulos 1 e 2 concluidos e [exemplo preparado](../examples/01-fluxo-agente-sdlc.md) |
 | 2. Ferramentas e ambiente | 20-25% | Primeira revisao concluida; modulo 3 e [exercicio](../exercises/02-ferramentas-ambiente.md) concluidos; [exemplo preparado](../examples/02-politica-ferramentas.md) |
-| 3. Memoria, estado e execucao | 10-15% | [Exemplo preparado](../examples/03-memoria-estado.md); exercicio nao concluido |
-| 4. Avaliacao, analise de erro e ajuste | 15-20% | [Exemplo preparado](../examples/04-avaliacao-planos.md); exercicio nao concluido |
-| 5. Coordenacao multiagente | 15-20% | Modulo 4 concluido; revisao e exercicio pendentes; [exemplo preparado](../examples/05-orquestracao-multiagente.md) |
+| 3. Memoria, estado e execucao | 10-15% | Modulo 5 iniciado; [exemplo preparado](../examples/03-memoria-estado.md); exercicio nao concluido |
+| 4. Avaliacao, analise de erro e ajuste | 15-20% | Modulo 5 iniciado; [exemplo preparado](../examples/04-avaliacao-planos.md); exercicio nao concluido |
+| 5. Coordenacao multiagente | 15-20% | Primeira revisao concluida; modulo 4 revisado e [exercicio](../exercises/05-multiagente.md) concluido; reforcar retry, rollback e escalacao; [exemplo preparado](../examples/05-orquestracao-multiagente.md) |
 | 6. Guardrails e prestacao de contas | 10-15% | [Exemplo preparado](../examples/06-guardrails-auditoria.md); exercicio nao concluido |
 
 Fonte dos dominios e pesos: [guia oficial da prova GH-600](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-600).
 
 ## Proximo passo concreto
 
-1. Revisar o [modulo 4 do curso](04-sistemas-multiagente-orquestracao.md).
-2. Executar o [exemplo do dominio 5](../examples/05-orquestracao-multiagente.md).
-3. Concluir o [exercicio do dominio 5](../exercises/05-multiagente.md) e registrar os aprendizados e duvidas.
+1. Estudar o [modulo 5 do curso](05-memoria-estado-avaliacao.md), iniciado em 2026-10-04.
+2. Revisar o resumo, responder as perguntas e validar o checklist de aprendizado.
+3. Resolver os exercicios dos [dominios 3](../exercises/03-memoria-estado.md) e [4](../exercises/04-avaliacao-ajuste.md), com apoio dos exemplos de [memoria e estado](../examples/03-memoria-estado.md) e [avaliacao](../examples/04-avaliacao-planos.md).

@@ -34,7 +34,7 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 - [x] Módulo 2: arquitetura do agente e integração com o SDLC
 - [x] Módulo 3: ferramentas, MCP e ambientes de execução — concluído em 2026-09-27
 - [x] Módulo 4: sistemas multiagente e orquestração — concluído em 2026-10-01
-- [ ] Módulo 5: memória, estado e avaliação
+- [ ] Módulo 5: memória, estado e avaliação — iniciado em 2026-10-04
 - [ ] Módulo 6: governança, guardrails e operações
 - [ ] Revisar e organizar as anotações
 
@@ -46,9 +46,9 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 
 - [x] Primeira revisão do Domínio 1 concluída, com os módulos 1 e 2 estudados e revisados.
 - [x] Primeira revisão do Domínio 2 concluída, com o Módulo 3 e o exercício correspondente concluídos.
-- [ ] Domínio 5: Módulo 4 concluído; revisão e exercício ainda pendentes.
+- [x] Primeira revisão do Domínio 5 concluída, com o Módulo 4 revisado e o exercício correspondente concluído.
 
 ## Próximo passo
 
-- Revisar o [Módulo 4: sistemas multiagente e orquestração](docs/04-sistemas-multiagente-orquestracao.md).
-- Concluir o [exercício do Domínio 5](exercises/05-multiagente.md) com apoio do exemplo de orquestração multiagente.
+- Estudar o [Módulo 5: memória, estado e avaliação](docs/05-memoria-estado-avaliacao.md), iniciado em 2026-10-04.
+- Depois, revisar o resumo e resolver os exercícios dos [Domínios 3](exercises/03-memoria-estado.md) e [4](exercises/04-avaliacao-ajuste.md).
