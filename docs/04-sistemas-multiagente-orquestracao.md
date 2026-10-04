@@ -91,7 +91,7 @@ Projetar para falha significa assumir que agentes e workflows podem nao convergi
 - [x] Entendo como branches, workflows, permissoes e concorrencia isolam execucoes.
 - [x] Sei diferenciar conflitos textuais, semanticos, de politica e de duplicidade.
 - [x] Consigo definir evidencias e handoffs revisaveis no GitHub.
-- [x] Sei propor retry limitado, rollback e escalacao para falhas de coordenacao.
+- [ ] Sei propor retry limitado, rollback e escalacao para falhas de coordenacao.
 
 ## Perguntas de revisao
 
@@ -103,19 +103,15 @@ Projetar para falha significa assumir que agentes e workflows podem nao convergi
 
 ## Respostas
 
-1.
+1. Isso ocorre pois, sem responsabilidades bem definidas, os agentes acabam se sobrepondo na realizacao de tarefas, gerando trabalho duplicado e conflitos no repositorio, alem de deixar ambigua a responsabilidade pelo resultado, o que compromete a qualidade da aplicacao.
 
-2.
+2. Os agentes podem executar em paralelo quando nao possuem dependencias entre si, ou seja, um nao precisa do resultado, handoff ou acao do outro, e podem atuar de forma isolada, sem se sobrepor gerando duplicacoes e conflitos. Mesmo assim, os resultados precisam ser validados quando forem integrados.
 
-3.
+3. A principal vantagem e que os artefatos tornam as passagens de responsabilidade revisaveis e atribuiveis, facilitando a revisao, o diagnostico de falhas e a rastreabilidade durante todo o ciclo de vida do software.
 
-4.
+4. O CODEOWNERS participa da resolucao de conflitos identificando os individuos ou equipes responsaveis por partes especificas do codigo e solicitando sua revisao. Essas pessoas ajudam a decidir sobre as mudancas conflitantes, mas o arquivo nao resolve os conflitos automaticamente. A aprovacao dos responsaveis so e obrigatoria quando configurada nas regras do repositorio.
 
-5.
-
-## Duvida resolvida
-
-**O que e fan-out/fan-in e por que esse nome?** Fan-out distribui uma tarefa entre varios agentes, normalmente em paralelo; fan-in reune os resultados. O nome representa o fluxo abrindo e fechando como um leque.
+5. Os principais sinais sao: falhas nao transitorias sem recuperacao segura dentro do escopo, limite de retentativas atingido, execucoes repetidas sem convergencia e alertas criticos que exigem decisao humana. Conflitos em merge gerados por agentes e execucoes parciais precisam de diagnostico e devem ser escalados quando a recuperacao permitida nao resolve o problema.
 
 ## Relacao com o GH-600
 
