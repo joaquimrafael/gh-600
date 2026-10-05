@@ -45,14 +45,12 @@ Consulte o [mapa entre curso e prova](roadmap.md#mapa-entre-curso-e-prova). As d
 - Status: concluido em 2026-10-01 e revisado em 2026-10-04; exercicio do dominio 5 concluido.
 - Ponto a reforcar: retry limitado, rollback e escalacao, conforme o item ainda aberto no checklist do resumo.
 
-### Em andamento
-
 #### Curso - Modulo 5: Memoria, estado e avaliacao
 
 - Resumo: [docs/05-memoria-estado-avaliacao.md](05-memoria-estado-avaliacao.md)
 - Fonte: [Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/memory-state-evaluation/)
 - Cobertura da prova: dominios 3 e 4.
-- Status: iniciado em 2026-10-04; revisao e exercicios dos dominios 3 e 4 pendentes.
+- Status: concluido em 2026-10-04; revisao e exercicios dos dominios 3 e 4 pendentes.
 
 ### Primeira revisao do Dominio 1 concluida
 
@@ -91,8 +89,8 @@ Os resumos abaixo ja foram criados a partir dos modulos oficiais, mas isso nao r
 | --- | --- | --- |
 | 1. Arquitetura e processos do SDLC | 15-20% | Primeira revisao concluida; modulos 1 e 2 concluidos e [exemplo preparado](../examples/01-fluxo-agente-sdlc.md) |
 | 2. Ferramentas e ambiente | 20-25% | Primeira revisao concluida; modulo 3 e [exercicio](../exercises/02-ferramentas-ambiente.md) concluidos; [exemplo preparado](../examples/02-politica-ferramentas.md) |
-| 3. Memoria, estado e execucao | 10-15% | Modulo 5 iniciado; [exemplo preparado](../examples/03-memoria-estado.md); exercicio nao concluido |
-| 4. Avaliacao, analise de erro e ajuste | 15-20% | Modulo 5 iniciado; [exemplo preparado](../examples/04-avaliacao-planos.md); exercicio nao concluido |
+| 3. Memoria, estado e execucao | 10-15% | Modulo 5 concluido; revisao e exercicio pendentes; [exemplo preparado](../examples/03-memoria-estado.md) |
+| 4. Avaliacao, analise de erro e ajuste | 15-20% | Modulo 5 concluido; revisao e exercicio pendentes; [exemplo preparado](../examples/04-avaliacao-planos.md) |
 | 5. Coordenacao multiagente | 15-20% | Primeira revisao concluida; modulo 4 revisado e [exercicio](../exercises/05-multiagente.md) concluido; reforcar retry, rollback e escalacao; [exemplo preparado](../examples/05-orquestracao-multiagente.md) |
 | 6. Guardrails e prestacao de contas | 10-15% | [Exemplo preparado](../examples/06-guardrails-auditoria.md); exercicio nao concluido |
 
@@ -100,6 +98,6 @@ Fonte dos dominios e pesos: [guia oficial da prova GH-600](https://learn.microso
 
 ## Proximo passo concreto
 
-1. Estudar o [modulo 5 do curso](05-memoria-estado-avaliacao.md), iniciado em 2026-10-04.
-2. Revisar o resumo, responder as perguntas e validar o checklist de aprendizado.
-3. Resolver os exercicios dos [dominios 3](../exercises/03-memoria-estado.md) e [4](../exercises/04-avaliacao-ajuste.md), com apoio dos exemplos de [memoria e estado](../examples/03-memoria-estado.md) e [avaliacao](../examples/04-avaliacao-planos.md).
+1. Revisar o [modulo 5 do curso](05-memoria-estado-avaliacao.md), responder as perguntas e validar o checklist de aprendizado.
+2. Resolver o [exercicio do dominio 3](../exercises/03-memoria-estado.md), com apoio do [exemplo de memoria e estado](../examples/03-memoria-estado.md).
+3. Resolver o [exercicio do dominio 4](../exercises/04-avaliacao-ajuste.md), com apoio do [exemplo de avaliacao](../examples/04-avaliacao-planos.md).

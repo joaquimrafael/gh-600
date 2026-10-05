@@ -66,12 +66,12 @@ Um modulo do curso nao equivale necessariamente a um dominio da prova. Por exemp
 
 #### 5. Memoria, estado e avaliacao
 
-- [ ] Escolher estrategias de memoria e persistir estado.
-- [ ] Controlar context drift e continuidade entre ferramentas e ambientes.
-- [ ] Definir sinais de avaliacao, quality gates e analise de falhas.
+- [x] Escolher estrategias de memoria e persistir estado.
+- [x] Controlar context drift e continuidade entre ferramentas e ambientes.
+- [x] Definir sinais de avaliacao, quality gates e analise de falhas.
 - Resumo: [Memoria, estado e avaliacao](05-memoria-estado-avaliacao.md)
 - Modulo oficial: [Memory, State, and Evaluation](https://learn.microsoft.com/en-us/training/modules/memory-state-evaluation/)
-- Status: iniciado em 2026-10-04; estudo, revisao e exercicios dos dominios 3 e 4 em andamento ou pendentes.
+- Status: concluido em 2026-10-04; revisao e exercicios dos dominios 3 e 4 pendentes.
 
 #### 6. Governanca, guardrails e operacoes
 
