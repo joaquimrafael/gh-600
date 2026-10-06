@@ -98,13 +98,13 @@ O ciclo e executar, observar evidencias, identificar a causa, ajustar e validar 
 
 ## Checklist de aprendizado
 
-- [ ] Consigo diferenciar memoria de curto prazo, longo prazo e externa.
-- [ ] Sei registrar progresso e decisoes como estado duravel no GitHub.
-- [ ] Consigo detectar context drift e reancorar o agente na fonte de verdade.
-- [ ] Entendo regras de expiracao, pruning, sumarizacao e reset.
-- [ ] Sei definir sinais de avaliacao e quality gates verificaveis.
-- [ ] Consigo classificar falhas de raciocinio, ferramenta e contexto.
-- [ ] Sei escolher um ajuste coerente com a causa identificada.
+- [x] Consigo diferenciar memoria de curto prazo, longo prazo e externa.
+- [x] Sei registrar progresso e decisoes como estado duravel no GitHub.
+- [x] Consigo detectar context drift e reancorar o agente na fonte de verdade.
+- [x] Entendo regras de expiracao, pruning, sumarizacao e reset.
+- [x] Sei definir sinais de avaliacao e quality gates verificaveis.
+- [x] Consigo classificar falhas de raciocinio, ferramenta e contexto.
+- [x] Sei escolher um ajuste coerente com a causa identificada.
 
 ## Perguntas de revisao
 
@@ -116,15 +116,15 @@ O ciclo e executar, observar evidencias, identificar a causa, ajustar e validar 
 
 ## Respostas
 
-1.
+1. Enquanto a memoria guarda as informacoes relevantes para o agente, como o plano, os criterios de aceite e conhecimentos reutilizaveis, o estado reflete o que foi feito, o que falta fazer e quais as decisoes tomadas. O estado pode ser persistido em artefatos que tambem funcionam como memoria externa.
 
-2.
+2. Isso ocorre pois ela reune os elementos mais importantes do estado de um agente, registrando as mudancas feitas e seus commits, o plano atualizado, as verificacoes feitas e as revisoes, alem de referenciar a issue e os resultados dos workflows. Assim, o agente consegue retomar do estado mais recente sem repetir trabalho.
 
-3.
+3. Garantindo que a fonte de verdade de cada tipo de informacao seja a mesma entre todos estes, e que o estado seja atualizado a cada alteracao, para que possam trabalhar de forma organizada sem se sobrepor ou duplicar trabalho. Para isso, devem usar referencias duraveis, como a mesma PR, SHA de commit e links dos workflows, em vez de copiar contexto entre sessoes, e conferir os commits, requisitos e resultados mais recentes antes de continuar.
 
-4.
+4. Os criterios de sucesso definem o que devemos esperar do codigo antes de este ser implementado, enquanto os sinais de avaliacao sao as evidencias de que esses criterios foram atendidos, como resultados de testes, lint e analises de seguranca. Os quality gates usam esses sinais em regras de aceitacao, impedindo progressao quando os requisitos obrigatorios nao sao atendidos. Por exemplo, o resultado dos testes e um sinal; exigir que o check de testes passe antes do merge e um gate.
 
-5.
+5. Alem de especificar o problema, facilitando a sua tratativa de forma mais cirurgica, direciona o ajuste para a causa: erros de raciocinio pedem revisao das premissas e instrucoes; uso incorreto de ferramentas pede correcao dos comandos ou workflows; problemas de contexto pedem atualizacao da memoria e do estado. Depois do ajuste, e preciso validar novamente para conferir se a falha foi resolvida.
 
 ## Relacao com o GH-600
 

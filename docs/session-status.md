@@ -1,6 +1,6 @@
 # Estado da trilha
 
-Atualizado em: 2026-10-04
+Atualizado em: 2026-10-06
 
 ## Convencao
 
@@ -50,7 +50,18 @@ Consulte o [mapa entre curso e prova](roadmap.md#mapa-entre-curso-e-prova). As d
 - Resumo: [docs/05-memoria-estado-avaliacao.md](05-memoria-estado-avaliacao.md)
 - Fonte: [Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/memory-state-evaluation/)
 - Cobertura da prova: dominios 3 e 4.
-- Status: concluido em 2026-10-04; revisao e exercicios dos dominios 3 e 4 pendentes.
+- Status: concluido em 2026-10-04; revisao e exercicios dos dominios 3 e 4 concluidos em 2026-10-06, com perguntas respondidas e checklist marcado.
+- Aprendizado reforcado: criterios de sucesso definem expectativas; sinais fornecem evidencias; quality gates aplicam regras de aceitacao. A classificacao da falha orienta o ajuste, que precisa ser validado novamente.
+- Evidencias de estudo: tabela de memoria e estado e cinco casos de avaliacao de planos com falhas simuladas; isso nao representa execucao real de testes ou scans.
+
+### Em andamento
+
+#### Curso - Modulo 6: Governanca, guardrails e operacoes
+
+- Resumo: [docs/06-governanca-guardrails-operacoes.md](06-governanca-guardrails-operacoes.md)
+- Fonte: [Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/governance-guardrails-operations/)
+- Cobertura da prova: principalmente dominio 6, com aplicacao transversal.
+- Status: iniciado em 2026-10-06; revisao e exercicio do dominio 6 pendentes.
 
 ### Primeira revisao do Dominio 1 concluida
 
@@ -77,27 +88,21 @@ Casos de uso de IA para desenvolvedores com GitHub Copilot
 - Foco: produtividade, preferencias do desenvolvedor, uso de IA nas etapas do SDLC, limitacoes e medicao de impacto.
 - Status: concluido em 2026-09-22.
 
-### Material preparado para os modulos seguintes
-
-Os resumos abaixo ja foram criados a partir dos modulos oficiais, mas isso nao representa conclusao do estudo ou dos checklists:
-
-- [Curso - Modulo 6: Governanca, guardrails e operacoes](06-governanca-guardrails-operacoes.md)
-
 ## Cobertura da prova
 
 | Dominio | Peso | Estado |
 | --- | --- | --- |
 | 1. Arquitetura e processos do SDLC | 15-20% | Primeira revisao concluida; modulos 1 e 2 concluidos e [exemplo preparado](../examples/01-fluxo-agente-sdlc.md) |
 | 2. Ferramentas e ambiente | 20-25% | Primeira revisao concluida; modulo 3 e [exercicio](../exercises/02-ferramentas-ambiente.md) concluidos; [exemplo preparado](../examples/02-politica-ferramentas.md) |
-| 3. Memoria, estado e execucao | 10-15% | Modulo 5 concluido; revisao e exercicio pendentes; [exemplo preparado](../examples/03-memoria-estado.md) |
-| 4. Avaliacao, analise de erro e ajuste | 15-20% | Modulo 5 concluido; revisao e exercicio pendentes; [exemplo preparado](../examples/04-avaliacao-planos.md) |
+| 3. Memoria, estado e execucao | 10-15% | Primeira revisao concluida; modulo 5 revisado e [exercicio](../exercises/03-memoria-estado.md) concluido; [exemplo preparado](../examples/03-memoria-estado.md) |
+| 4. Avaliacao, analise de erro e ajuste | 15-20% | Primeira revisao concluida; modulo 5 revisado e [exercicio](../exercises/04-avaliacao-ajuste.md) concluido; [exemplo preparado](../examples/04-avaliacao-planos.md) |
 | 5. Coordenacao multiagente | 15-20% | Primeira revisao concluida; modulo 4 revisado e [exercicio](../exercises/05-multiagente.md) concluido; reforcar retry, rollback e escalacao; [exemplo preparado](../examples/05-orquestracao-multiagente.md) |
-| 6. Guardrails e prestacao de contas | 10-15% | [Exemplo preparado](../examples/06-guardrails-auditoria.md); exercicio nao concluido |
+| 6. Guardrails e prestacao de contas | 10-15% | Modulo 6 iniciado; [exemplo preparado](../examples/06-guardrails-auditoria.md); exercicio nao concluido |
 
 Fonte dos dominios e pesos: [guia oficial da prova GH-600](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-600).
 
 ## Proximo passo concreto
 
-1. Revisar o [modulo 5 do curso](05-memoria-estado-avaliacao.md), responder as perguntas e validar o checklist de aprendizado.
-2. Resolver o [exercicio do dominio 3](../exercises/03-memoria-estado.md), com apoio do [exemplo de memoria e estado](../examples/03-memoria-estado.md).
-3. Resolver o [exercicio do dominio 4](../exercises/04-avaliacao-ajuste.md), com apoio do [exemplo de avaliacao](../examples/04-avaliacao-planos.md).
+1. Estudar o [modulo 6 do curso](06-governanca-guardrails-operacoes.md), iniciado em 2026-10-06.
+2. Revisar o resumo, responder as perguntas e validar o checklist de aprendizado.
+3. Resolver o [exercicio do dominio 6](../exercises/06-guardrails.md), com apoio do [exemplo de guardrails e auditoria](../examples/06-guardrails-auditoria.md).

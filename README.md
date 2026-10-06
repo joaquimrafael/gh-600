@@ -34,8 +34,8 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 - [x] Módulo 2: arquitetura do agente e integração com o SDLC
 - [x] Módulo 3: ferramentas, MCP e ambientes de execução — concluído em 2026-09-27
 - [x] Módulo 4: sistemas multiagente e orquestração — concluído em 2026-10-01
-- [x] Módulo 5: memória, estado e avaliação — concluído em 2026-10-04; revisão e exercícios pendentes
-- [ ] Módulo 6: governança, guardrails e operações
+- [x] Módulo 5: memória, estado e avaliação — concluído em 2026-10-04; revisão e exercícios concluídos em 2026-10-06
+- [ ] Módulo 6: governança, guardrails e operações — iniciado em 2026-10-06
 - [ ] Revisar e organizar as anotações
 
 ### Módulo complementar
@@ -47,9 +47,9 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 - [x] Primeira revisão do Domínio 1 concluída, com os módulos 1 e 2 estudados e revisados.
 - [x] Primeira revisão do Domínio 2 concluída, com o Módulo 3 e o exercício correspondente concluídos.
 - [x] Primeira revisão do Domínio 5 concluída, com o Módulo 4 revisado e o exercício correspondente concluído.
-- [ ] Domínios 3 e 4: Módulo 5 concluído; revisão e exercícios ainda pendentes.
+- [x] Primeira revisão dos Domínios 3 e 4 concluída, com o Módulo 5 revisado e os exercícios correspondentes concluídos.
 
 ## Próximo passo
 
-- Revisar o [Módulo 5: memória, estado e avaliação](docs/05-memoria-estado-avaliacao.md).
-- Resolver os exercícios dos [Domínios 3](exercises/03-memoria-estado.md) e [4](exercises/04-avaliacao-ajuste.md).
+- Estudar o [Módulo 6: governança, guardrails e operações](docs/06-governanca-guardrails-operacoes.md).
+- Depois, revisar o resumo e resolver o [exercício do Domínio 6](exercises/06-guardrails.md).

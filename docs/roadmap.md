@@ -71,7 +71,7 @@ Um modulo do curso nao equivale necessariamente a um dominio da prova. Por exemp
 - [x] Definir sinais de avaliacao, quality gates e analise de falhas.
 - Resumo: [Memoria, estado e avaliacao](05-memoria-estado-avaliacao.md)
 - Modulo oficial: [Memory, State, and Evaluation](https://learn.microsoft.com/en-us/training/modules/memory-state-evaluation/)
-- Status: concluido em 2026-10-04; revisao e exercicios dos dominios 3 e 4 pendentes.
+- Status: concluido em 2026-10-04; revisao e exercicios dos dominios 3 e 4 concluidos em 2026-10-06.
 
 #### 6. Governanca, guardrails e operacoes
 
@@ -80,6 +80,7 @@ Um modulo do curso nao equivale necessariamente a um dominio da prova. Por exemp
 - [ ] Garantir observabilidade, auditoria e confiabilidade operacional.
 - Resumo: [Governanca, guardrails e operacoes](06-governanca-guardrails-operacoes.md)
 - Modulo oficial: [Governance, Guardrails, and Operations](https://learn.microsoft.com/en-us/training/modules/governance-guardrails-operations/)
+- Status: iniciado em 2026-10-06; revisao e exercicio do dominio 6 pendentes.
 
 ### Modulo complementar
 
