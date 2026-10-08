@@ -75,12 +75,12 @@ Um modulo do curso nao equivale necessariamente a um dominio da prova. Por exemp
 
 #### 6. Governanca, guardrails e operacoes
 
-- [ ] Definir autonomia e boundaries baseados em risco.
-- [ ] Aplicar controles do GitHub, aprovacoes humanas e menor privilegio.
-- [ ] Garantir observabilidade, auditoria e confiabilidade operacional.
+- [x] Definir autonomia e boundaries baseados em risco.
+- [x] Aplicar controles do GitHub, aprovacoes humanas e menor privilegio.
+- [x] Garantir observabilidade, auditoria e confiabilidade operacional.
 - Resumo: [Governanca, guardrails e operacoes](06-governanca-guardrails-operacoes.md)
 - Modulo oficial: [Governance, Guardrails, and Operations](https://learn.microsoft.com/en-us/training/modules/governance-guardrails-operations/)
-- Status: iniciado em 2026-10-06; revisao e exercicio do dominio 6 pendentes.
+- Status: concluido em 2026-10-07; revisao e exercicio do dominio 6 pendentes.
 
 ### Modulo complementar
 
@@ -134,6 +134,7 @@ Para cada modulo do curso:
 
 ## Conclusao
 
+- [x] Concluir o estudo dos seis modulos do curso GH-600T00-A — concluido em 2026-10-07.
 - [ ] Concluir e revisar os seis resumos dos modulos do curso.
 - [ ] Concluir os seis checkpoints dos dominios da prova.
 - [ ] Construir um pequeno agente ou uma especificacao de agente.

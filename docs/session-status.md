@@ -1,6 +1,6 @@
 # Estado da trilha
 
-Atualizado em: 2026-10-06
+Atualizado em: 2026-10-07
 
 ## Convencao
 
@@ -12,6 +12,8 @@ O progresso e registrado em duas dimensoes:
 Consulte o [mapa entre curso e prova](roadmap.md#mapa-entre-curso-e-prova). As duas sequencias nao sao equivalentes.
 
 ## Progresso do curso
+
+Curso GH-600T00-A concluido em 2026-10-07, com os seis modulos estudados. A revisao do modulo 6, o exercicio do dominio 6 e a revisao final para a prova continuam pendentes.
 
 ### Concluido
 
@@ -54,14 +56,12 @@ Consulte o [mapa entre curso e prova](roadmap.md#mapa-entre-curso-e-prova). As d
 - Aprendizado reforcado: criterios de sucesso definem expectativas; sinais fornecem evidencias; quality gates aplicam regras de aceitacao. A classificacao da falha orienta o ajuste, que precisa ser validado novamente.
 - Evidencias de estudo: tabela de memoria e estado e cinco casos de avaliacao de planos com falhas simuladas; isso nao representa execucao real de testes ou scans.
 
-### Em andamento
-
 #### Curso - Modulo 6: Governanca, guardrails e operacoes
 
 - Resumo: [docs/06-governanca-guardrails-operacoes.md](06-governanca-guardrails-operacoes.md)
 - Fonte: [Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/governance-guardrails-operations/)
 - Cobertura da prova: principalmente dominio 6, com aplicacao transversal.
-- Status: iniciado em 2026-10-06; revisao e exercicio do dominio 6 pendentes.
+- Status: concluido em 2026-10-07; revisao e exercicio do dominio 6 pendentes.
 
 ### Primeira revisao do Dominio 1 concluida
 
@@ -97,12 +97,12 @@ Casos de uso de IA para desenvolvedores com GitHub Copilot
 | 3. Memoria, estado e execucao | 10-15% | Primeira revisao concluida; modulo 5 revisado e [exercicio](../exercises/03-memoria-estado.md) concluido; [exemplo preparado](../examples/03-memoria-estado.md) |
 | 4. Avaliacao, analise de erro e ajuste | 15-20% | Primeira revisao concluida; modulo 5 revisado e [exercicio](../exercises/04-avaliacao-ajuste.md) concluido; [exemplo preparado](../examples/04-avaliacao-planos.md) |
 | 5. Coordenacao multiagente | 15-20% | Primeira revisao concluida; modulo 4 revisado e [exercicio](../exercises/05-multiagente.md) concluido; reforcar retry, rollback e escalacao; [exemplo preparado](../examples/05-orquestracao-multiagente.md) |
-| 6. Guardrails e prestacao de contas | 10-15% | Modulo 6 iniciado; [exemplo preparado](../examples/06-guardrails-auditoria.md); exercicio nao concluido |
+| 6. Guardrails e prestacao de contas | 10-15% | Modulo 6 concluido; revisao e exercicio pendentes; [exemplo preparado](../examples/06-guardrails-auditoria.md) |
 
 Fonte dos dominios e pesos: [guia oficial da prova GH-600](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-600).
 
 ## Proximo passo concreto
 
-1. Estudar o [modulo 6 do curso](06-governanca-guardrails-operacoes.md), iniciado em 2026-10-06.
-2. Revisar o resumo, responder as perguntas e validar o checklist de aprendizado.
-3. Resolver o [exercicio do dominio 6](../exercises/06-guardrails.md), com apoio do [exemplo de guardrails e auditoria](../examples/06-guardrails-auditoria.md).
+1. Revisar o [modulo 6 do curso](06-governanca-guardrails-operacoes.md), responder as perguntas e validar o checklist de aprendizado.
+2. Resolver o [exercicio do dominio 6](../exercises/06-guardrails.md), com apoio do [exemplo de guardrails e auditoria](../examples/06-guardrails-auditoria.md).
+3. Organizar a revisao final dos seis dominios da prova e retomar os pontos a reforcar, incluindo retry, rollback e escalacao do modulo 4.
