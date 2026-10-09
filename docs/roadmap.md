@@ -80,7 +80,7 @@ Um modulo do curso nao equivale necessariamente a um dominio da prova. Por exemp
 - [x] Garantir observabilidade, auditoria e confiabilidade operacional.
 - Resumo: [Governanca, guardrails e operacoes](06-governanca-guardrails-operacoes.md)
 - Modulo oficial: [Governance, Guardrails, and Operations](https://learn.microsoft.com/en-us/training/modules/governance-guardrails-operations/)
-- Status: concluido em 2026-10-07; revisao e exercicio do dominio 6 pendentes.
+- Status: concluido em 2026-10-07; revisao e exercicio do dominio 6 concluidos em 2026-10-09.
 
 ### Modulo complementar
 
@@ -135,8 +135,9 @@ Para cada modulo do curso:
 ## Conclusao
 
 - [x] Concluir o estudo dos seis modulos do curso GH-600T00-A — concluido em 2026-10-07.
-- [ ] Concluir e revisar os seis resumos dos modulos do curso.
-- [ ] Concluir os seis checkpoints dos dominios da prova.
+- [x] Concluir e revisar os seis resumos dos modulos do curso — primeira revisao concluida em 2026-10-09; reforcar o item aberto do modulo 4.
+- [x] Concluir os seis checkpoints dos dominios da prova — concluido em 2026-10-09.
+- [ ] Organizar e executar a revisao final para a prova.
 - [ ] Construir um pequeno agente ou uma especificacao de agente.
 - [ ] Documentar arquitetura, ferramentas, avaliacao e controles.
 - [ ] Registrar o que ainda precisa ser praticado.

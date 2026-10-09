@@ -30,13 +30,13 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 
 ## Progresso do curso
 
-- [x] Curso GH-600T00-A concluído em 2026-10-07 — seis módulos estudados; revisão final e exercício do Domínio 6 pendentes.
+- [x] Curso GH-600T00-A concluído em 2026-10-07 — seis módulos estudados; primeira revisão e exercícios concluídos em 2026-10-09; revisão final para a prova pendente.
 - [x] Módulo 1: fundamentos da IA agêntica no GitHub
 - [x] Módulo 2: arquitetura do agente e integração com o SDLC
 - [x] Módulo 3: ferramentas, MCP e ambientes de execução — concluído em 2026-09-27
 - [x] Módulo 4: sistemas multiagente e orquestração — concluído em 2026-10-01
 - [x] Módulo 5: memória, estado e avaliação — concluído em 2026-10-04; revisão e exercícios concluídos em 2026-10-06
-- [x] Módulo 6: governança, guardrails e operações — concluído em 2026-10-07; revisão e exercício pendentes
+- [x] Módulo 6: governança, guardrails e operações — concluído em 2026-10-07; revisão e exercício concluídos em 2026-10-09
 - [ ] Revisar e organizar as anotações
 
 ### Módulo complementar
@@ -49,9 +49,9 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 - [x] Primeira revisão do Domínio 2 concluída, com o Módulo 3 e o exercício correspondente concluídos.
 - [x] Primeira revisão do Domínio 5 concluída, com o Módulo 4 revisado e o exercício correspondente concluído.
 - [x] Primeira revisão dos Domínios 3 e 4 concluída, com o Módulo 5 revisado e os exercícios correspondentes concluídos.
-- [ ] Domínio 6: Módulo 6 concluído; revisão e exercício pendentes.
+- [x] Primeira revisão do Domínio 6 concluída, com o Módulo 6 revisado e o exercício correspondente concluído.
 
 ## Próximo passo
 
-- Revisar o [Módulo 6: governança, guardrails e operações](docs/06-governanca-guardrails-operacoes.md).
-- Resolver o [exercício do Domínio 6](exercises/06-guardrails.md) e organizar a revisão final para a prova.
+- Organizar a revisão final dos seis domínios da prova.
+- Reforçar retry, rollback e escalação no [Módulo 4](docs/04-sistemas-multiagente-orquestracao.md) e usar os [exemplos](examples/README.md) para praticar.
