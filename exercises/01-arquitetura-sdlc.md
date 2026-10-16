@@ -32,17 +32,12 @@ O agente pode causar impacto positivo em tarefas repetitivas, e que podem ser re
 
 1- Requisitos funcionais e nao funcionais, necessidade de negocio e objetivo do cliente
 
-
 2- Permissoes, acessos, definicoes de codigo, padroes e historico do repositorio
-
 
 3- Ferramentas, recursos, modelos, o plano e criterios de aceite
 
-
 4- Testes, artefatos da esteira, comentarios e feedback
 
-
 5- Aprovacao, fluxo de deploy, planejamento, plano de roolback
-
 
 6- Logs, metricas, traces, impacto no cliente e dados de comprovacao

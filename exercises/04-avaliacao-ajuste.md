@@ -64,7 +64,7 @@ Os casos abaixo avaliam o plano produzido pelo agente antes da implementacao. As
 - Ajuste: retirar essa proposta, usar o mecanismo autorizado e incluir secret scanning e revisao. Se uma credencial real ja foi exposta, escalar e priorizar sua revogacao ou rotacao pelo responsavel; apagar o texto nao invalida a credencial, e eventual limpeza do historico exige coordenacao.
 - Causa principal: erro de raciocinio sobre armazenamento e exposicao de credenciais.
 
-### Reflexao
+### Reflexaoo
 
 Qualidade, seguranca e consistencia devem ser medidas pelos criterios definidos na demanda: cobertura dos requisitos pelo plano, escopo respeitado, validacoes verificaveis, contexto atual e riscos tratados. Os quality gates estabelecidos no repositorio aplicam as regras obrigatorias de aceitacao. Depois de corrigir o plano, e preciso avaliar novamente os mesmos casos.
 
