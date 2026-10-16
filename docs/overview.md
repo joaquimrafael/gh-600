@@ -18,11 +18,11 @@ Aprender a projetar, implementar, avaliar, governar e operar sistemas de IA agê
 
 ## Dominios da prova para estudar
 
-- [ ] Arquitetura de agentes e processos do SDLC
-- [ ] Ferramentas, ambientes e interacao com o agente
-- [ ] Memoria, estado e execucao
-- [ ] Avaliacao, analise de erro e ajuste
-- [ ] Coordenacao de varios agentes
-- [ ] Guardrails, seguranca e prestacao de contas
+- [x] Arquitetura de agentes e processos do SDLC
+- [x] Ferramentas, ambientes e interacao com o agente
+- [x] Memoria, estado e execucao
+- [x] Avaliacao, analise de erro e ajuste
+- [x] Coordenacao de varios agentes
+- [x] Guardrails, seguranca e prestacao de contas
 
 ## Dúvidas abertas

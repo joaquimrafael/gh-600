@@ -62,7 +62,7 @@ Um modulo do curso nao equivale necessariamente a um dominio da prova. Por exemp
 - [x] Produzir evidencias, atribuicao e handoffs observaveis.
 - Resumo: [Sistemas multiagente e orquestracao](04-sistemas-multiagente-orquestracao.md)
 - Modulo oficial: [Multi-Agent Systems and Orchestration](https://learn.microsoft.com/en-us/training/modules/multi-agent-systems-orchestration/)
-- Status: concluido em 2026-10-01 e revisado em 2026-10-04; exercicio do dominio 5 concluido. Reforcar retry limitado, rollback e escalacao, conforme o item ainda aberto no checklist do resumo.
+- Status: concluido em 2026-10-01 e revisado em 2026-10-04; exercicio do dominio 5 concluido. Checklist de retry limitado, rollback e escalacao concluido na revisao final em 2026-10-15.
 
 #### 5. Memoria, estado e avaliacao
 
@@ -135,9 +135,9 @@ Para cada modulo do curso:
 ## Conclusao
 
 - [x] Concluir o estudo dos seis modulos do curso GH-600T00-A — concluido em 2026-10-07.
-- [x] Concluir e revisar os seis resumos dos modulos do curso — primeira revisao concluida em 2026-10-09; reforcar o item aberto do modulo 4.
+- [x] Concluir e revisar os seis resumos dos modulos do curso — primeira revisao concluida em 2026-10-09; revisao final concluida em 2026-10-15.
 - [x] Concluir os seis checkpoints dos dominios da prova — concluido em 2026-10-09.
-- [ ] Organizar e executar a revisao final para a prova.
-- [ ] Construir um pequeno agente ou uma especificacao de agente.
-- [ ] Documentar arquitetura, ferramentas, avaliacao e controles.
-- [ ] Registrar o que ainda precisa ser praticado.
+- [x] Organizar e executar a revisao final para a prova — concluida em 2026-10-15, com encerramento dos estudos neste repositorio.
+- [x] Construir um pequeno agente ou uma especificacao de agente.
+- [x] Documentar arquitetura, ferramentas, avaliacao e controles.
+- [x] Registrar o que ainda precisa ser praticado.

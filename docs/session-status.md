@@ -1,6 +1,6 @@
 # Estado da trilha
 
-Atualizado em: 2026-10-09
+Atualizado em: 2026-10-15
 
 ## Convencao
 
@@ -13,7 +13,7 @@ Consulte o [mapa entre curso e prova](roadmap.md#mapa-entre-curso-e-prova). As d
 
 ## Progresso do curso
 
-Curso GH-600T00-A concluido em 2026-10-07, com os seis modulos estudados. A primeira revisao dos seis dominios e os seis exercicios foram concluidos em 2026-10-09. A revisao final para a prova continua pendente.
+Curso GH-600T00-A concluido em 2026-10-07, com os seis modulos estudados. A primeira revisao dos seis dominios e os seis exercicios foram concluidos em 2026-10-09. A revisao final dos seis dominios foi concluida em 2026-10-15, encerrando os estudos neste repositorio.
 
 ### Concluido
 
@@ -45,7 +45,7 @@ Curso GH-600T00-A concluido em 2026-10-07, com os seis modulos estudados. A prim
 - Fonte: [Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/multi-agent-systems-orchestration/)
 - Foco: responsabilidades, isolamento, handoffs, conflitos, observabilidade e recuperacao.
 - Status: concluido em 2026-10-01 e revisado em 2026-10-04; exercicio do dominio 5 concluido.
-- Ponto a reforcar: retry limitado, rollback e escalacao, conforme o item ainda aberto no checklist do resumo.
+- Reforco concluido na revisao final em 2026-10-15: retry limitado, rollback e escalacao, com checklist do resumo completo.
 
 #### Curso - Modulo 5: Memoria, estado e avaliacao
 
@@ -94,17 +94,19 @@ Casos de uso de IA para desenvolvedores com GitHub Copilot
 
 | Dominio | Peso | Estado |
 | --- | --- | --- |
-| 1. Arquitetura e processos do SDLC | 15-20% | Primeira revisao concluida; modulos 1 e 2 concluidos e [exemplo preparado](../examples/01-fluxo-agente-sdlc.md) |
-| 2. Ferramentas e ambiente | 20-25% | Primeira revisao concluida; modulo 3 e [exercicio](../exercises/02-ferramentas-ambiente.md) concluidos; [exemplo preparado](../examples/02-politica-ferramentas.md) |
-| 3. Memoria, estado e execucao | 10-15% | Primeira revisao concluida; modulo 5 revisado e [exercicio](../exercises/03-memoria-estado.md) concluido; [exemplo preparado](../examples/03-memoria-estado.md) |
-| 4. Avaliacao, analise de erro e ajuste | 15-20% | Primeira revisao concluida; modulo 5 revisado e [exercicio](../exercises/04-avaliacao-ajuste.md) concluido; [exemplo preparado](../examples/04-avaliacao-planos.md) |
-| 5. Coordenacao multiagente | 15-20% | Primeira revisao concluida; modulo 4 revisado e [exercicio](../exercises/05-multiagente.md) concluido; reforcar retry, rollback e escalacao; [exemplo preparado](../examples/05-orquestracao-multiagente.md) |
-| 6. Guardrails e prestacao de contas | 10-15% | Primeira revisao concluida; modulo 6 revisado e [exercicio](../exercises/06-guardrails.md) concluido; [exemplo preparado](../examples/06-guardrails-auditoria.md) |
+| 1. Arquitetura e processos do SDLC | 15-20% | Revisao final concluida em 2026-10-15; modulos 1 e 2 concluidos e [exemplo preparado](../examples/01-fluxo-agente-sdlc.md) |
+| 2. Ferramentas e ambiente | 20-25% | Revisao final concluida em 2026-10-15; modulo 3 e [exercicio](../exercises/02-ferramentas-ambiente.md) concluidos; [exemplo preparado](../examples/02-politica-ferramentas.md) |
+| 3. Memoria, estado e execucao | 10-15% | Revisao final concluida em 2026-10-15; modulo 5 revisado e [exercicio](../exercises/03-memoria-estado.md) concluido; [exemplo preparado](../examples/03-memoria-estado.md) |
+| 4. Avaliacao, analise de erro e ajuste | 15-20% | Revisao final concluida em 2026-10-15; modulo 5 revisado e [exercicio](../exercises/04-avaliacao-ajuste.md) concluido; [exemplo preparado](../examples/04-avaliacao-planos.md) |
+| 5. Coordenacao multiagente | 15-20% | Revisao final concluida em 2026-10-15; modulo 4 revisado e [exercicio](../exercises/05-multiagente.md) concluido; checklist de retry, rollback e escalacao concluido; [exemplo preparado](../examples/05-orquestracao-multiagente.md) |
+| 6. Guardrails e prestacao de contas | 10-15% | Revisao final concluida em 2026-10-15; modulo 6 revisado e [exercicio](../exercises/06-guardrails.md) concluido; [exemplo preparado](../examples/06-guardrails-auditoria.md) |
 
 Fonte dos dominios e pesos: [guia oficial da prova GH-600](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-600).
 
-## Proximo passo concreto
+## Encerramento dos estudos
 
-1. Organizar a revisao final dos seis dominios da prova, retomando os resumos e os checkpoints do [roteiro](roadmap.md).
-2. Reforcar retry, rollback e escalacao no [modulo 4](04-sistemas-multiagente-orquestracao.md), preservando o item ainda aberto no checklist ate consolidar o aprendizado.
-3. Usar os [exemplos dos seis dominios](../examples/README.md) para praticar e registrar lacunas antes da prova.
+- [x] Revisao final dos seis dominios da prova concluida em 2026-10-15, conforme confirmacao do estudante.
+- [x] Seis modulos do curso e seis checkpoints concluidos.
+- [x] Reforco de retry limitado, rollback e escalacao concluido no [modulo 4](04-sistemas-multiagente-orquestracao.md).
+
+Nao ha proximo passo de estudo pendente neste repositorio. Os resumos, checkpoints e [exemplos dos seis dominios](../examples/README.md) ficam disponiveis para consulta.

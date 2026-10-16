@@ -91,7 +91,7 @@ Projetar para falha significa assumir que agentes e workflows podem nao convergi
 - [x] Entendo como branches, workflows, permissoes e concorrencia isolam execucoes.
 - [x] Sei diferenciar conflitos textuais, semanticos, de politica e de duplicidade.
 - [x] Consigo definir evidencias e handoffs revisaveis no GitHub.
-- [ ] Sei propor retry limitado, rollback e escalacao para falhas de coordenacao.
+- [x] Sei propor retry limitado, rollback e escalacao para falhas de coordenacao.
 
 ## Perguntas de revisao
 

@@ -30,14 +30,14 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 
 ## Progresso do curso
 
-- [x] Curso GH-600T00-A concluído em 2026-10-07 — seis módulos estudados; primeira revisão e exercícios concluídos em 2026-10-09; revisão final para a prova pendente.
+- [x] Curso GH-600T00-A concluído em 2026-10-07 — seis módulos estudados; primeira revisão e exercícios concluídos em 2026-10-09; revisão final dos seis domínios concluída em 2026-10-15.
 - [x] Módulo 1: fundamentos da IA agêntica no GitHub
 - [x] Módulo 2: arquitetura do agente e integração com o SDLC
 - [x] Módulo 3: ferramentas, MCP e ambientes de execução — concluído em 2026-09-27
 - [x] Módulo 4: sistemas multiagente e orquestração — concluído em 2026-10-01
 - [x] Módulo 5: memória, estado e avaliação — concluído em 2026-10-04; revisão e exercícios concluídos em 2026-10-06
 - [x] Módulo 6: governança, guardrails e operações — concluído em 2026-10-07; revisão e exercício concluídos em 2026-10-09
-- [ ] Revisar e organizar as anotações
+- [x] Revisar e organizar as anotações
 
 ### Módulo complementar
 
@@ -51,7 +51,6 @@ Para continuar o trabalho com outro agente, consulte as [instrucoes para agentes
 - [x] Primeira revisão dos Domínios 3 e 4 concluída, com o Módulo 5 revisado e os exercícios correspondentes concluídos.
 - [x] Primeira revisão do Domínio 6 concluída, com o Módulo 6 revisado e o exercício correspondente concluído.
 
-## Próximo passo
+## Encerramento
 
-- Organizar a revisão final dos seis domínios da prova.
-- Reforçar retry, rollback e escalação no [Módulo 4](docs/04-sistemas-multiagente-orquestracao.md) e usar os [exemplos](examples/README.md) para praticar.
+Estudos encerrados em 2026-10-15, com os seis módulos do curso, os seis checkpoints e a revisão final dos seis domínios da prova concluídos. Não há próximo passo de estudo pendente neste repositório.
